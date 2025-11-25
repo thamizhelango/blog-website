@@ -3,7 +3,7 @@ let allBlogs = [];
 let filteredBlogs = [];
 let activeTags = new Set();
 let currentPage = 1;
-const blogsPerPage = 8;
+const blogsPerPage = 9;
 
 // Initialize the application
 document.addEventListener('DOMContentLoaded', async () => {
@@ -148,6 +148,9 @@ function applyFilters() {
         
         return matchesSearch && matchesTags;
     });
+    
+    // Reverse order to show newest first
+    filteredBlogs.reverse();
     
     // Reset to first page when filters change
     currentPage = 1;
