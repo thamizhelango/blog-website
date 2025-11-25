@@ -1,0 +1,258 @@
+[
+  {
+    "url": "https://thamizhelango.medium.com/building-a-production-ready-ci-cd-pipeline-with-n8n-a-complete-guide-3bf98a481190",
+    "title": "Building a Production-Ready CI/CD Pipeline with n8n: A Complete Guide",
+    "thumbnail": "assets/building-a-production-ready-ci-cd-pipeline-with-n8n-a-complete-guide.webp",
+    "tags": [
+      "CI/CD",
+      "n8n",
+      "DevOps",
+      "Automation",
+      "Pipeline"
+    ]
+  },
+  {
+    "url": "https://thamizhelango.medium.com/flashtensors-a-deep-dive-into-ultra-fast-model-loading-for-llm-inference-5f9ba0023e3b",
+    "title": "FlashTensors: A Deep Dive into Ultra-Fast Model Loading for LLM Inference",
+    "thumbnail": "assets/flashtensors-a-deep-dive-into-ultra-fast-model-loading-for-llm-inference.webp",
+    "tags": [
+      "LLM",
+      "Inference",
+      "Performance",
+      "Machine Learning",
+      "Optimization"
+    ]
+  },
+  {
+    "url": "https://thamizhelango.medium.com/from-clicks-to-context-why-the-ai-world-is-rebuilding-recommendation-systems-with-llms-a0d331a52e6f",
+    "title": "From Clicks to Context: Why the AI World is Rebuilding Recommendation Systems with LLMs",
+    "thumbnail": "assets/from-clicks-to-context-why-the-ai-world-is-rebuilding-recommendation-systems-with-llms.webp",
+    "tags": [
+      "AI",
+      "Recommendation Systems",
+      "LLMs",
+      "Machine Learning",
+      "Context"
+    ]
+  },
+  {
+    "url": "https://thamizhelango.medium.com/gtc-washington-dc-2025-jensen-huangs-blueprint-for-the-next-era-of-ai-3ece65d577f1",
+    "title": "GTC Washington DC 2025: Jensen Huang's Blueprint for the Next Era of AI",
+    "thumbnail": "assets/gtc-washington-dc-2025-jensen-huangs-blueprint-for-the-next-era-of-ai-.webp",
+    "tags": [
+      "AI",
+      "GTC",
+      "Jensen Huang",
+      "NVIDIA",
+      "Technology"
+    ]
+  },
+  {
+    "url": "https://thamizhelango.medium.com/the-future-of-authn-authz-in-multi-agent-ai-systems-3f3782449e13",
+    "title": "The Future of AuthN/AuthZ in Multi-Agent AI Systems",
+    "thumbnail": "assets/the-future-of-authn-authz-in-multi-agent-ai-systems.webp",
+    "tags": [
+      "AI",
+      "Security",
+      "Authentication",
+      "Multi-Agent Systems"
+    ]
+  },
+  {
+    "url": "https://thamizhelango.medium.com/the-future-of-compute-why-wasi-and-the-webassembly-component-model-will-reshape-software-dcc1212689b1",
+    "title": "The Future of Compute: Why WASI and the WebAssembly Component Model Will Reshape Software",
+    "thumbnail": "assets/the-future-of-compute-why-wasi-and-the-webassembly-component-model-will-reshape-software.webp",
+    "tags": [
+      "WebAssembly",
+      "WASI",
+      "Compute",
+      "Software Architecture",
+      "Technology"
+    ]
+  },
+  {
+    "url": "https://medium.com/@thamizhelango/dual-booting-macos-with-darwin-and-kde-a-linux-like-experience-in-macos-0cdeb09f0f49",
+    "title": "Dual-Booting macOS with Darwin and KDE: A Linux Like Experience in macOS",
+    "thumbnail": "1*B5VoCc7wiZ4WJIn8Z4XXYw.png",
+    "tags": [
+      "macOS",
+      "Darwin",
+      "KDE",
+      "Linux",
+      "Experience"
+    ]
+  },
+  {
+    "url": "https://medium.com/@thamizhelango/accelerating-big-data-analytics-with-rapids-and-apache-spark-leveraging-dual-nvidia-rtx-3090-gpus-a57065d105d7",
+    "title": "Accelerating Big Data Analytics with RAPIDS and Apache Spark: Leveraging Dual NVIDIA RTX 3090 GPUs",
+    "thumbnail": "1*lOZqYt7rCFK5tir1kjdr0Q.png",
+    "tags": [
+      "Big",
+      "Data",
+      "Analytics",
+      "RAPIDS",
+      "Apache",
+      "Spark",
+      "NVIDIA",
+      "RTX",
+      "GPUs"
+    ]
+  },
+  {
+    "url": "https://medium.com/@thamizhelango/implementing-enterprise-integration-patterns-with-spring-integration-and-google-cloud-platform-ca426834f5e6",
+    "title": "Implementing Enterprise Integration Patterns with Spring Integration and Google Cloud Platform",
+    "thumbnail": "1*HPqMegsf_PZBPFAXWvy-GQ.png",
+    "tags": [
+      "Enterprise",
+      "Integration",
+      "Patterns",
+      "Spring",
+      "Google",
+      "Cloud",
+      "Platform"
+    ]
+  },
+  {
+    "url": "https://medium.com/@thamizhelango/implementing-enterprise-integration-patterns-with-spring-integration-and-aws-cloud-services-153ac6dc7188",
+    "title": "Implementing Enterprise Integration Patterns with Spring Integration and AWS Cloud Services",
+    "thumbnail": "1*TnGu9SOFdF3WZH1wJdE8iw.png",
+    "tags": [
+      "Enterprise",
+      "Integration",
+      "Patterns",
+      "Spring",
+      "AWS",
+      "Cloud",
+      "Services"
+    ]
+  },
+  {
+    "url": "https://medium.com/@thamizhelango/implementing-enterprise-integration-patterns-with-spring-integration-and-azure-cloud-services-bff45c380cd6",
+    "title": "Implementing Enterprise Integration Patterns with Spring Integration and Azure Cloud Services",
+    "thumbnail": "1*-zcyKDsh5qmc_uESIIIM4Q.png",
+    "tags": [
+      "Enterprise",
+      "Integration",
+      "Patterns",
+      "Spring",
+      "Azure",
+      "Cloud",
+      "Services"
+    ]
+  },
+  {
+    "url": "https://medium.com/@thamizhelango/enterprise-integration-patterns-real-world-examples-with-apache-camel-and-spring-boot-e89d9e5d9d93",
+    "title": "Enterprise Integration Patterns: Real-World Examples with Apache Camel and Spring Boot",
+    "thumbnail": "1*FvJ_3CEPhLuXINSaNcHo0g.png",
+    "tags": [
+      "Enterprise",
+      "Integration",
+      "Patterns",
+      "Apache",
+      "Camel",
+      "Spring",
+      "Boot"
+    ]
+  },
+  {
+    "url": "https://medium.com/@thamizhelango/enterprise-integration-patterns-implementation-across-cloud-providers-01923d5f3ae1",
+    "title": "Enterprise Integration Patterns Implementation Across Cloud Providers",
+    "thumbnail": "1*Yn4U4igT_uqTZVXcC4-MFw.png",
+    "tags": [
+      "Enterprise",
+      "Integration",
+      "Patterns",
+      "Cloud",
+      "Providers"
+    ]
+  },
+  {
+    "url": "https://medium.com/@thamizhelango/setting-up-kubernetes-container-runtime-a-comprehensive-guide-a697a149b999",
+    "title": "Setting up Kubernetes Container Runtime: A Comprehensive Guide",
+    "thumbnail": "1*CsJN0SuJig3E4fxLZdNKng.png",
+    "tags": [
+      "Kubernetes",
+      "Container",
+      "Runtime",
+      "Guide"
+    ]
+  },
+  {
+    "url": "https://medium.com/@thamizhelango/kubernetes-networking-production-ready-cni-plugins-explained-5084b8fc1757",
+    "title": "Kubernetes Networking: Production-Ready CNI Plugins Explained",
+    "thumbnail": "1*sj48uNWtfxZ0i8_W-0jAeA.png",
+    "tags": [
+      "Kubernetes",
+      "Networking",
+      "CNI",
+      "Plugins"
+    ]
+  },
+  {
+    "url": "https://medium.com/@thamizhelango/kubernetes-storage-concepts-implementation-and-real-world-examples-7c2f74a7b592",
+    "title": "Kubernetes Storage: Concepts, Implementation, and Real-World Examples",
+    "thumbnail": "1*iK_7oWc0UrpcVfFW5sK5YA.png",
+    "tags": [
+      "Kubernetes",
+      "Storage",
+      "Concepts",
+      "Implementation",
+      "Examples"
+    ]
+  },
+  {
+    "url": "https://medium.com/@thamizhelango/kubernetes-loadbalancer-comprehensive-guide-with-real-world-example-c7058da2cab1",
+    "title": "Kubernetes LoadBalancer: Comprehensive Guide with Real-World Example",
+    "thumbnail": "1*AhE4ukVRD1q4kC4lKVLmuQ.png",
+    "tags": [
+      "Kubernetes",
+      "LoadBalancer",
+      "Guide",
+      "Example"
+    ]
+  },
+  {
+    "url": "https://medium.com/@thamizhelango/setting-up-gvisor-in-kubernetes-with-a-real-world-example-ccf9ab4b1e2c",
+    "title": "Setting up gVisor in Kubernetes with a Real-World Example",
+    "thumbnail": "1*MM62tkrTdAjKAlHO0dq6fA.png",
+    "tags": [
+      "gVisor",
+      "Kubernetes",
+      "Example"
+    ]
+  },
+  {
+    "url": "https://medium.com/@thamizhelango/building-and-releasing-android-apps-with-tekton-on-kubernetes-e668bc0b86e2",
+    "title": "Building and Releasing Android Apps with Tekton on Kubernetes",
+    "thumbnail": "1*O7BAmsFAMS8gu_2VpJ0daA.png",
+    "tags": [
+      "Android",
+      "Tekton",
+      "Kubernetes",
+      "Apps"
+    ]
+  },
+  {
+    "url": "https://medium.com/@thamizhelango/building-and-releasing-ios-apps-with-tekton-on-kubernetes-0c19833cf876",
+    "title": "Building and Releasing iOS Apps with Tekton on Kubernetes",
+    "thumbnail": "1*MaD8N4h0xXAV-ns3EsMrjQ.png",
+    "tags": [
+      "iOS",
+      "Tekton",
+      "Kubernetes",
+      "Apps"
+    ]
+  },
+  {
+    "url": "https://medium.com/@thamizhelango/mathematical-fundamentals-for-machine-learning-and-data-science-2bfe868340f6",
+    "title": "Mathematical Fundamentals for Machine Learning and Data Science",
+    "thumbnail": "1*F4ou0E_wwTNqaI3_5-viwQ.png",
+    "tags": [
+      "Mathematical",
+      "Machine",
+      "Learning",
+      "Data",
+      "Science"
+    ]
+  }
+]

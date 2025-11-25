@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>kernel2ai.com | Thamizhelango's Blog</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>kernel2ai.com</h1>
+            <p class="subtitle">From kernel to AI - insights by Thamizhelango</p>
+        </header>
+
+        <div class="controls">
+            <div class="search-container">
+                <input 
+                    type="text" 
+                    id="searchInput" 
+                    placeholder="Search blogs by title or tags..."
+                    class="search-input"
+                >
+                <svg class="search-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <circle cx="11" cy="11" r="8"></circle>
+                    <path d="m21 21-4.35-4.35"></path>
+                </svg>
+            </div>
+
+            <div class="filter-container">
+                <div class="filter-label">Filter by tags:</div>
+                <div id="tagFilters" class="tag-filters">
+                    <!-- Tags will be dynamically generated -->
+                </div>
+                <button id="clearFilters" class="clear-btn">Clear Filters</button>
+            </div>
+        </div>
+
+        <div class="results-info">
+            <span id="resultsCount">Loading...</span>
+        </div>
+
+        <div id="blogGrid" class="blog-grid">
+            <!-- Blog cards will be dynamically generated -->
+        </div>
+
+        <div id="noResults" class="no-results" style="display: none;">
+            <p>No blogs found matching your criteria.</p>
+        </div>
+
+        <div id="pagination" class="pagination" style="display: none;">
+            <!-- Pagination controls will be dynamically generated -->
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
