@@ -7,18 +7,17 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <div class="container">
-        <header>
-            <h1>kernel2ai.com</h1>
-            <p class="subtitle">From kernel to AI - insights by Thamizhelango</p>
-        </header>
-
-        <div class="controls">
+    <header>
+        <div class="header-content">
+            <div class="header-title-section">
+                <h1>kernel2ai.com</h1>
+                <p class="subtitle">From kernel to AI - insights by Thamizhelango</p>
+            </div>
             <div class="search-container">
                 <input 
                     type="text" 
                     id="searchInput" 
-                    placeholder="Search blogs by title or tags..."
+                    placeholder="Search blogs..."
                     class="search-input"
                 >
                 <svg class="search-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
@@ -26,13 +25,19 @@
                     <path d="m21 21-4.35-4.35"></path>
                 </svg>
             </div>
-
+        </div>
+    </header>
+    
+    <div class="container">
+        <div class="controls">
             <div class="filter-container">
-                <div class="filter-label">Filter by tags:</div>
+                <div class="filter-header">
+                    <div class="filter-label">Filter by tags:</div>
+                    <button id="clearFilters" class="clear-btn">Clear Filters</button>
+                </div>
                 <div id="tagFilters" class="tag-filters">
                     <!-- Tags will be dynamically generated -->
                 </div>
-                <button id="clearFilters" class="clear-btn">Clear Filters</button>
             </div>
         </div>
 
@@ -47,11 +52,11 @@
         <div id="noResults" class="no-results" style="display: none;">
             <p>No blogs found matching your criteria.</p>
         </div>
-
-        <div id="pagination" class="pagination" style="display: none;">
-            <!-- Pagination controls will be dynamically generated -->
-        </div>
     </div>
+
+    <footer id="pagination" class="pagination" style="display: none;">
+        <!-- Pagination controls will be dynamically generated -->
+    </footer>
 
     <script src="script.js"></script>
 </body>
