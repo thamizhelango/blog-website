@@ -245,6 +245,7 @@ function updateResultsCount(count) {
 // Render pagination controls
 function renderPagination() {
     const pagination = document.getElementById('pagination');
+    const paginationControls = pagination.querySelector('.pagination-controls');
     const totalPages = Math.ceil(filteredBlogs.length / blogsPerPage);
     
     if (totalPages <= 1) {
@@ -305,7 +306,7 @@ function renderPagination() {
         </button>
     `;
     
-    pagination.innerHTML = paginationHTML;
+    paginationControls.innerHTML = paginationHTML;
 }
 
 // Go to specific page
