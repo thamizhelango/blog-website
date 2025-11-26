@@ -12,7 +12,7 @@ A static website to display and search through blog posts with card-based layout
 
 ## Setup
 
-1. **Add your blog data**: Edit `blogs.json` and add all 510 blog entries in the following format:
+1. **Add your blog data**: Edit `blogs.json`:
 
 ```json
 [
