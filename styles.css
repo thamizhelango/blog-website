@@ -768,7 +768,7 @@ header h1 {
     }
 
     /* Hide page numbers on very small screens, show only prev/next */
-    @media (max-width: 480px) {
+    /*@media (max-width: 480px) {
         .pagination-btn:not(.prev):not(.next):not(.active) {
             display: none;
         }
@@ -776,7 +776,7 @@ header h1 {
         .pagination-info {
             display: none;
         }
-    }
+    }*/
 }
 
 @media (min-width: 768px) and (max-width: 1024px) {
