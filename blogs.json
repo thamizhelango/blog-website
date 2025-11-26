@@ -681,14 +681,6 @@
     ]
   },
   {
-    "url": "https://medium.com/@thamizhelango/great-question-about-using-statefulsets-vs-59f5661f34e8",
-    "title": "Great question about using StatefulSets vs.",
-    "thumbnail": "assets/great-question-about-using-statefulsets-vs.webp",
-    "tags": [
-      "Technology"
-    ]
-  },
-  {
     "url": "https://medium.com/@thamizhelango/implementing-event-sourcing-with-spring-boot-and-azure-131385287808",
     "title": "Implementing Event Sourcing with Spring Boot and Azure",
     "thumbnail": "assets/implementing-event-sourcing-with-spring-boot-and-azure.webp",
@@ -772,15 +764,6 @@
       "Kubernetes",
       "Monitoring",
       "Performance"
-    ]
-  },
-  {
-    "url": "https://medium.com/@thamizhelango/tekton-offers-key-advantages-over-traditional-tools-like-jenkins-1-native-11c22634e38b",
-    "title": "Tekton offers key advantages over traditional tools like Jenkins:\n\n1.Native",
-    "thumbnail": "assets/tekton-offers-key-advantages-over-traditional-tools-like-jenkins-1-native.webp",
-    "tags": [
-      "DevOps",
-      "Kubernetes"
     ]
   },
   {
@@ -2930,14 +2913,6 @@
     ]
   },
   {
-    "url": "https://medium.com/@thamizhelango/bas-meijer-good-question-this-example-shows-layered-security-in-action-a5e501b5b01b",
-    "title": "@Bas Meijer Good question! This example shows layered security in action:",
-    "thumbnail": "assets/bas-meijer-good-question-this-example-shows-layered-security-in-action.webp",
-    "tags": [
-      "Security"
-    ]
-  },
-  {
     "url": "https://medium.com/@thamizhelango/building-ci-cd-pipelines-with-gitlab-runner-on-linux-1595a824d6e0",
     "title": "Building CI/CD Pipelines with GitLab Runner on Linux",
     "thumbnail": "assets/building-ci-cd-pipelines-with-gitlab-runner-on-linux.webp",
@@ -3203,14 +3178,6 @@
     "url": "https://medium.com/@thamizhelango/is-vmware-tanzu-really-a-successful-platform-a-critical-analysis-6fa604eb00c7",
     "title": "Is VMware Tanzu Really a Successful Platform? A Critical Analysis",
     "thumbnail": "assets/is-vmware-tanzu-really-a-successful-platform-a-critical-analysis.webp",
-    "tags": [
-      "Technology"
-    ]
-  },
-  {
-    "url": "https://medium.com/@thamizhelango/thanks-jose-2f32c93a88e7",
-    "title": "Thanks Jose!",
-    "thumbnail": "assets/thanks-jose.webp",
     "tags": [
       "Technology"
     ]
@@ -3506,14 +3473,6 @@
     ]
   },
   {
-    "url": "https://medium.com/@thamizhelango/thanks-for-your-comment-0431242378dd",
-    "title": "Thanks for your comment!",
-    "thumbnail": "assets/thanks-for-your-comment.webp",
-    "tags": [
-      "Technology"
-    ]
-  },
-  {
     "url": "https://medium.com/@thamizhelango/complete-guide-deploying-apache-cloudstack-on-kubernetes-a9e7eb57f5db",
     "title": "Complete Guide: Deploying Apache CloudStack on Kubernetes",
     "thumbnail": "assets/complete-guide-deploying-apache-cloudstack-on-kubernetes.webp",
@@ -3704,15 +3663,6 @@
     ]
   },
   {
-    "url": "https://medium.com/@thamizhelango/https-github-com-containers-kubernetes-mcp-server-81ec837acb12",
-    "title": "Thanks.Please check here https://github.com/containers/kubernetes-mcp-server",
-    "thumbnail": "assets/https-github-com-containers-kubernetes-mcp-server.webp",
-    "tags": [
-      "Kubernetes",
-      "MCP"
-    ]
-  },
-  {
     "url": "https://medium.com/@thamizhelango/cloudevents-a-complete-guide-with-real-time-examples-and-kubernetes-deployments-c04eb161c8fe",
     "title": "CloudEvents: A Complete Guide with Real-Time Examples and Kubernetes Deployments",
     "thumbnail": "assets/cloudevents-a-complete-guide-with-real-time-examples-and-kubernetes-deployments.webp",
@@ -3824,17 +3774,9 @@
     ]
   },
   {
-    "url": "https://medium.com/@thamizhelango/yes-ive-faced-that-issue-too-73ccfd011c18",
-    "title": "Yes, I’ve faced that issue too.",
-    "thumbnail": "assets/yes-ive-faced-that-issue-too.webp",
-    "tags": [
-      "Technology"
-    ]
-  },
-  {
     "url": "https://medium.com/@thamizhelango/%EF%B8%8F-virtualization-demystified-from-emulation-to-sr-iov-db08b5bdde6b",
     "title": "🖥️ Virtualization Demystified: From Emulation to SR-IOV",
-    "thumbnail": "assets/%EF%B8%8F-virtualization-demystified-from-emulation-to-sr-iov.webp",
+    "thumbnail": "assets/virtualization-demystified-from-emulation-to-sr-iov.webp",
     "tags": [
       "Virtualization"
     ]
@@ -3951,14 +3893,6 @@
     "tags": [
       "AI",
       "Kubernetes"
-    ]
-  },
-  {
-    "url": "https://medium.com/@thamizhelango/thanks-for-your-kind-words-431de880e397",
-    "title": "Thanks for your kind words 🙏",
-    "thumbnail": "assets/thanks-for-your-kind-words.webp",
-    "tags": [
-      "Technology"
     ]
   },
   {
@@ -4335,14 +4269,6 @@
     ]
   },
   {
-    "url": "https://medium.com/@thamizhelango/thanks-for-pointing-that-out-really-appreciate-it-d4459b71f4d2",
-    "title": "Thanks for pointing that out, really appreciate it!",
-    "thumbnail": "assets/thanks-for-pointing-that-out-really-appreciate-it.webp",
-    "tags": [
-      "Technology"
-    ]
-  },
-  {
     "url": "https://medium.com/@thamizhelango/the-new-economics-of-gpu-infrastructure-how-investors-are-capturing-value-in-the-agentic-ai-era-54601189553e",
     "title": "The New Economics of GPU Infrastructure: How Investors Are Capturing Value in the Agentic AI Era",
     "thumbnail": "assets/the-new-economics-of-gpu-infrastructure-how-investors-are-capturing-value-in-the-agentic-ai-era.webp",
@@ -4389,14 +4315,6 @@
     "thumbnail": "assets/demystifying-nvidias-sm-warp-thread-execution-model.webp",
     "tags": [
       "Concurrency"
-    ]
-  },
-  {
-    "url": "https://medium.com/@thamizhelango/please-provide-me-link-for-this-ide-are-you-talking-about-firebase-studio-a03a703e7c93",
-    "title": "Please provide me link for this IDE. Are you talking about firebase studio?",
-    "thumbnail": "assets/please-provide-me-link-for-this-ide-are-you-talking-about-firebase-studio.webp",
-    "tags": [
-      "Technology"
     ]
   },
   {
