@@ -56,6 +56,7 @@ function initializeTags() {
     
     const sortedTags = Array.from(tagSet).sort();
     const tagFiltersContainer = document.getElementById('tagFilters');
+    const mobileTagFiltersContainer = document.getElementById('mobileTagFilters');
     
     if (!tagFiltersContainer) {
         console.error('tagFilters container not found!');
@@ -64,26 +65,34 @@ function initializeTags() {
     
     // Clear existing tags first
     tagFiltersContainer.innerHTML = '';
+    if (mobileTagFiltersContainer) {
+        mobileTagFiltersContainer.innerHTML = '';
+    }
     
     console.log(`Found ${sortedTags.length} unique tags from ${allBlogs.length} blogs`);
     
     if (sortedTags.length === 0) {
         console.warn('No tags found in blogs!');
-        tagFiltersContainer.innerHTML = '<span style="color: var(--text-secondary); font-size: 0.875rem;">No tags available</span>';
+        const noTagsMsg = '<span style="color: var(--text-secondary); font-size: 0.875rem;">No tags available</span>';
+        tagFiltersContainer.innerHTML = noTagsMsg;
+        if (mobileTagFiltersContainer) {
+            mobileTagFiltersContainer.innerHTML = noTagsMsg;
+        }
         return;
     }
     
-    // Create and append tag buttons
+    // Create and append tag buttons to both containers
     sortedTags.forEach((tag, index) => {
         try {
-            const tagButton = document.createElement('button');
-            tagButton.className = 'tag-filter';
-            tagButton.textContent = tag;
-            tagButton.dataset.tag = tag;
-            tagButton.setAttribute('type', 'button');
-            tagButton.setAttribute('aria-label', `Filter by ${tag}`);
-            tagButton.addEventListener('click', () => toggleTagFilter(tag));
+            // Desktop container
+            const tagButton = createTagButton(tag);
             tagFiltersContainer.appendChild(tagButton);
+            
+            // Mobile container
+            if (mobileTagFiltersContainer) {
+                const mobileTagButton = createTagButton(tag);
+                mobileTagFiltersContainer.appendChild(mobileTagButton);
+            }
         } catch (error) {
             console.error(`Error creating tag button for "${tag}":`, error);
         }
@@ -92,18 +101,30 @@ function initializeTags() {
     console.log(`Successfully created ${sortedTags.length} tag buttons`);
 }
 
+// Helper function to create a tag button
+function createTagButton(tag) {
+    const tagButton = document.createElement('button');
+    tagButton.className = 'tag-filter';
+    tagButton.textContent = tag;
+    tagButton.dataset.tag = tag;
+    tagButton.setAttribute('type', 'button');
+    tagButton.setAttribute('aria-label', `Filter by ${tag}`);
+    tagButton.addEventListener('click', () => toggleTagFilter(tag));
+    return tagButton;
+}
+
 // Toggle tag filter
 function toggleTagFilter(tag) {
-    const tagButton = document.querySelector(`[data-tag="${tag}"]`);
+    const tagButtons = document.querySelectorAll(`[data-tag="${tag}"]`);
     
-    if (!tagButton) return;
+    if (tagButtons.length === 0) return;
     
     if (activeTags.has(tag)) {
         activeTags.delete(tag);
-        tagButton.classList.remove('active');
+        tagButtons.forEach(btn => btn.classList.remove('active'));
     } else {
         activeTags.add(tag);
-        tagButton.classList.add('active');
+        tagButtons.forEach(btn => btn.classList.add('active'));
     }
     
     applyFilters();
@@ -113,9 +134,18 @@ function toggleTagFilter(tag) {
 function setupEventListeners() {
     const searchInput = document.getElementById('searchInput');
     const clearFiltersBtn = document.getElementById('clearFilters');
+    const mobileClearFiltersBtn = document.getElementById('mobileClearFilters');
     
     searchInput.addEventListener('input', debounce(applyFilters, 300));
-    clearFiltersBtn.addEventListener('click', clearAllFilters);
+    if (clearFiltersBtn) {
+        clearFiltersBtn.addEventListener('click', clearAllFilters);
+    }
+    if (mobileClearFiltersBtn) {
+        mobileClearFiltersBtn.addEventListener('click', clearAllFilters);
+    }
+    
+    // Mobile menu handlers
+    setupMobileMenu();
 }
 
 
@@ -161,13 +191,30 @@ function applyFilters() {
 
 // Clear all filters
 function clearAllFilters() {
-    document.getElementById('searchInput').value = '';
+    const searchInput = document.getElementById('searchInput');
+    if (searchInput) {
+        searchInput.value = '';
+    }
     activeTags.clear();
     
-    // Remove active class from all tag buttons
+    // Remove active class from all tag buttons (both desktop and mobile)
     document.querySelectorAll('.tag-filter').forEach(btn => {
         btn.classList.remove('active');
     });
+    
+    // Ensure tags are still present (safeguard against accidental clearing)
+    const tagFiltersContainer = document.getElementById('tagFilters');
+    const mobileTagFiltersContainer = document.getElementById('mobileTagFilters');
+    
+    // If tags are missing, re-initialize them
+    if (tagFiltersContainer && tagFiltersContainer.children.length === 0) {
+        console.warn('Tags container is empty, re-initializing tags...');
+        initializeTags();
+    }
+    if (mobileTagFiltersContainer && mobileTagFiltersContainer.children.length === 0) {
+        console.warn('Mobile tags container is empty, re-initializing tags...');
+        initializeTags();
+    }
     
     applyFilters();
 }
@@ -259,7 +306,7 @@ function renderPagination() {
     
     // Previous button
     paginationHTML += `
-        <button class="pagination-btn" ${currentPage === 1 ? 'disabled' : ''} onclick="goToPage(${currentPage - 1})">
+        <button class="pagination-btn prev" ${currentPage === 1 ? 'disabled' : ''} onclick="goToPage(${currentPage - 1})">
             Previous
         </button>
     `;
@@ -301,7 +348,7 @@ function renderPagination() {
     
     // Next button
     paginationHTML += `
-        <button class="pagination-btn" ${currentPage === totalPages ? 'disabled' : ''} onclick="goToPage(${currentPage + 1})">
+        <button class="pagination-btn next" ${currentPage === totalPages ? 'disabled' : ''} onclick="goToPage(${currentPage + 1})">
             Next
         </button>
     `;
@@ -322,4 +369,58 @@ window.goToPage = function(page) {
     // Scroll to top of blog grid
     document.getElementById('blogGrid').scrollIntoView({ behavior: 'smooth', block: 'start' });
 };
+
+// Mobile menu functionality
+function setupMobileMenu() {
+    const mobileMenuBtn = document.getElementById('mobileMenuBtn');
+    const mobileSearchBtn = document.getElementById('mobileSearchBtn');
+    const mobileTagsDrawer = document.getElementById('mobileTagsDrawer');
+    const mobileOverlay = document.getElementById('mobileOverlay');
+    const closeTagsDrawer = document.getElementById('closeTagsDrawer');
+    const searchContainer = document.querySelector('.search-container');
+    
+    // Toggle tags drawer
+    if (mobileMenuBtn) {
+        mobileMenuBtn.addEventListener('click', () => {
+            mobileTagsDrawer?.classList.add('active');
+            mobileOverlay?.classList.add('active');
+            document.body.style.overflow = 'hidden';
+        });
+    }
+    
+    // Close tags drawer
+    function closeDrawer() {
+        mobileTagsDrawer?.classList.remove('active');
+        mobileOverlay?.classList.remove('active');
+        document.body.style.overflow = '';
+    }
+    
+    if (closeTagsDrawer) {
+        closeTagsDrawer.addEventListener('click', closeDrawer);
+    }
+    
+    if (mobileOverlay) {
+        mobileOverlay.addEventListener('click', closeDrawer);
+    }
+    
+    // Toggle search on mobile
+    if (mobileSearchBtn) {
+        mobileSearchBtn.addEventListener('click', () => {
+            searchContainer?.classList.toggle('active');
+            if (searchContainer?.classList.contains('active')) {
+                // Focus search input when opened
+                setTimeout(() => {
+                    document.getElementById('searchInput')?.focus();
+                }, 100);
+            }
+        });
+    }
+    
+    // Close drawer on escape key
+    document.addEventListener('keydown', (e) => {
+        if (e.key === 'Escape' && mobileTagsDrawer?.classList.contains('active')) {
+            closeDrawer();
+        }
+    });
+}
 
