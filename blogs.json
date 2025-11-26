@@ -3014,14 +3014,6 @@
     ]
   },
   {
-    "url": "https://medium.com/@thamizhelango/yes-ecs-native-blue-green-deployments-can-be-done-across-aws-accounts-using-codepipeline-but-it-6d5ec04e83a4",
-    "title": "Yes, ECS native blue-green deployments can be done across AWS accounts using CodePipeline — but it…",
-    "thumbnail": "assets/yes-ecs-native-blue-green-deployments-can-be-done-across-aws-accounts-using-codepipeline-but-it.webp",
-    "tags": [
-      "Cloud"
-    ]
-  },
-  {
     "url": "https://medium.com/@thamizhelango/building-a-production-ready-data-warehousing-system-with-duckdb-on-kubernetes-an-enterprise-guide-0bc320bc0c1e",
     "title": "Building a Production-Ready Data Warehousing System with DuckDB on Kubernetes: An Enterprise Guide",
     "thumbnail": "assets/building-a-production-ready-data-warehousing-system-with-duckdb-on-kubernetes-an-enterprise-guide.webp",
