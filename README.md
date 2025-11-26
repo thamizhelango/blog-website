@@ -1,4 +1,4 @@
-# Blog Collection Website
+# Blog Tag Indexer for Medium
 
 A static website to display and search through blog posts with card-based layout, search functionality, and tag filtering.
 
