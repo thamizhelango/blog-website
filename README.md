@@ -12,7 +12,20 @@ A static website to display and search through blog posts with card-based layout
 
 ## Setup
 
-1. **Open the website**: Simply open `index.html` in a web browser, or use a local server:
+1. **Add your blog data**: Edit `blogs.json` and add all 510 blog entries in the following format:
+
+```json
+[
+    {
+        "url": "https://thamizhelango.medium.com/your-blog-url",
+        "title": "Your Blog Title",
+        "thumbnail": "https://your-image-url.com/image.jpg",
+        "tags": ["Tag1", "Tag2", "Tag3"]
+    }
+]
+```
+
+2. **Open the website**: Simply open `index.html` in a web browser, or use a local server:
 
 ```bash
 # Using Python

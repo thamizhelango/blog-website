@@ -105,7 +105,7 @@
   },
   {
     "url": "https://medium.com/@thamizhelango/understanding-domain-driven-design-eric-evans-approach-explained-f61bbaa5c619",
-    "title": "Understanding Domain-Driven Design: Eric Evans\u2019 Approach Explained",
+    "title": "Understanding Domain-Driven Design: Eric Evans’ Approach Explained",
     "thumbnail": "assets/understanding-domain-driven-design-eric-evans-approach-explained.webp",
     "tags": [
       "Architecture"
@@ -169,7 +169,7 @@
   },
   {
     "url": "https://medium.com/@thamizhelango/the-complete-webworkers-journey-from-novice-to-expert-4da1d3db0fa7",
-    "title": "The Complete Webworker\u2019s Journey: From Novice to Expert",
+    "title": "The Complete Webworker’s Journey: From Novice to Expert",
     "thumbnail": "assets/the-complete-webworkers-journey-from-novice-to-expert.webp",
     "tags": [
       "Technology"
@@ -201,7 +201,7 @@
   },
   {
     "url": "https://medium.com/@thamizhelango/inside-v8-understanding-googles-high-performance-javascript-engine-41925545ee8b",
-    "title": "Inside V8: Understanding Google\u2019s High-Performance JavaScript Engine",
+    "title": "Inside V8: Understanding Google’s High-Performance JavaScript Engine",
     "thumbnail": "assets/inside-v8-understanding-googles-high-performance-javascript-engine.webp",
     "tags": [
       "Browser",
@@ -211,7 +211,7 @@
   },
   {
     "url": "https://medium.com/@thamizhelango/inside-the-jvm-a-deep-dive-into-javas-virtual-machine-and-memory-management-ef17044ef05f",
-    "title": "Inside the JVM: A Deep Dive into Java\u2019s Virtual Machine and Memory Management",
+    "title": "Inside the JVM: A Deep Dive into Java’s Virtual Machine and Memory Management",
     "thumbnail": "assets/inside-the-jvm-a-deep-dive-into-javas-virtual-machine-and-memory-management.webp",
     "tags": [
       "Java"
@@ -330,7 +330,7 @@
   },
   {
     "url": "https://medium.com/@thamizhelango/automating-infrastructure-a-comprehensive-comparison-of-kickstart-packer-cloud-init-pulumi-9c8d0a217cfb",
-    "title": "Automating Infrastructure: A Comprehensive Comparison of Kickstart, Packer, Cloud-Init, Pulumi\u2026",
+    "title": "Automating Infrastructure: A Comprehensive Comparison of Kickstart, Packer, Cloud-Init, Pulumi…",
     "thumbnail": "assets/automating-infrastructure-a-comprehensive-comparison-of-kickstart-packer-cloud-init-pulumi.webp",
     "tags": [
       "Boot Process",
@@ -383,7 +383,7 @@
   },
   {
     "url": "https://medium.com/@thamizhelango/gradle-from-scratch-to-expert-a-complete-guide-156d22abedf3",
-    "title": "Gradle: From Scratch to Expert\u200a\u2014\u200aA Complete Guide",
+    "title": "Gradle: From Scratch to Expert — A Complete Guide",
     "thumbnail": "assets/gradle-from-scratch-to-expert-a-complete-guide.webp",
     "tags": [
       "Build Tools"
@@ -607,7 +607,7 @@
   },
   {
     "url": "https://medium.com/@thamizhelango/implementing-enterprise-integration-patterns-with-spring-integration-and-google-cloud-platform-ca426834f5e6",
-    "title": "Implementing Enterprise Integration Patterns with Spring Integration and Google Cloud Platform\u2026",
+    "title": "Implementing Enterprise Integration Patterns with Spring Integration and Google Cloud Platform…",
     "thumbnail": "assets/implementing-enterprise-integration-patterns-with-spring-integration-and-google-cloud-platform.webp",
     "tags": [
       "Architecture",
@@ -944,7 +944,7 @@
   },
   {
     "url": "https://medium.com/@thamizhelango/jython-jruby-ironpython-and-ironruby-python-and-ruby-on-jvm-and-net-985c7e988acb",
-    "title": "Jython, JRuby, IronPython, and IronRuby: Python and Ruby on JVM and\u00a0.NET",
+    "title": "Jython, JRuby, IronPython, and IronRuby: Python and Ruby on JVM and .NET",
     "thumbnail": "assets/jython-jruby-ironpython-and-ironruby-python-and-ruby-on-jvm-and-net.webp",
     "tags": [
       "Java",
@@ -1087,7 +1087,7 @@
   },
   {
     "url": "https://medium.com/@thamizhelango/building-agentic-ai-with-optimized-llms-leveraging-dual-rtx-3090-for-autonomous-agents-part-2-723f43bd88ea",
-    "title": "Building Agentic AI with Optimized LLMs: Leveraging Dual RTX 3090 for Autonomous Agents\u200a\u2014\u200aPart 2",
+    "title": "Building Agentic AI with Optimized LLMs: Leveraging Dual RTX 3090 for Autonomous Agents — Part 2",
     "thumbnail": "assets/building-agentic-ai-with-optimized-llms-leveraging-dual-rtx-3090-for-autonomous-agents-part-2.webp",
     "tags": [
       "AI"
@@ -1169,7 +1169,7 @@
   },
   {
     "url": "https://medium.com/@thamizhelango/building-multi-agent-llm-systems-with-spring-boot-a-comprehensive-guide-for-enterprise-java-43166d00ca5f",
-    "title": "Building Multi-Agent LLM Systems with Spring Boot: A Comprehensive Guide for Enterprise Java\u2026",
+    "title": "Building Multi-Agent LLM Systems with Spring Boot: A Comprehensive Guide for Enterprise Java…",
     "thumbnail": "assets/building-multi-agent-llm-systems-with-spring-boot-a-comprehensive-guide-for-enterprise-java.webp",
     "tags": [
       "AI/ML",
@@ -1232,7 +1232,7 @@
   },
   {
     "url": "https://medium.com/@thamizhelango/real-time-fraud-detection-using-gpu-accelerated-decision-trees-with-dual-rtx-3090s-a-complete-0707adcb9d67",
-    "title": "Real-Time Fraud Detection using GPU-Accelerated Decision Trees with Dual RTX 3090s: A Complete\u2026",
+    "title": "Real-Time Fraud Detection using GPU-Accelerated Decision Trees with Dual RTX 3090s: A Complete…",
     "thumbnail": "assets/real-time-fraud-detection-using-gpu-accelerated-decision-trees-with-dual-rtx-3090s-a-complete.webp",
     "tags": [
       "WebRTC"
@@ -1258,7 +1258,7 @@
   },
   {
     "url": "https://medium.com/@thamizhelango/the-universal-pattern-how-modern-compilation-systems-solve-the-n-m-problem-d6f37e946ad2",
-    "title": "The Universal Pattern: How Modern Compilation Systems Solve the N\u00d7M Problem",
+    "title": "The Universal Pattern: How Modern Compilation Systems Solve the N×M Problem",
     "thumbnail": "assets/the-universal-pattern-how-modern-compilation-systems-solve-the-n-m-problem.webp",
     "tags": [
       "Technology"
@@ -1275,7 +1275,7 @@
   },
   {
     "url": "https://medium.com/@thamizhelango/the-ai-coding-revolution-google-jules-vs-claude-code-vs-github-copilot-agent-a-comprehensive-d3e582ad20b6",
-    "title": "The AI Coding Revolution: Google Jules vs Claude Code vs GitHub Copilot Agent\u200a\u2014\u200aA Comprehensive\u2026",
+    "title": "The AI Coding Revolution: Google Jules vs Claude Code vs GitHub Copilot Agent — A Comprehensive…",
     "thumbnail": "assets/the-ai-coding-revolution-google-jules-vs-claude-code-vs-github-copilot-agent-a-comprehensive.webp",
     "tags": [
       "AI",
@@ -1403,7 +1403,7 @@
   },
   {
     "url": "https://medium.com/@thamizhelango/rusts-revolutionary-entry-into-linux-kernel-driver-development-b92e80afb062",
-    "title": "Rust\u2019s Revolutionary Entry into Linux Kernel Driver Development",
+    "title": "Rust’s Revolutionary Entry into Linux Kernel Driver Development",
     "thumbnail": "assets/rusts-revolutionary-entry-into-linux-kernel-driver-development.webp",
     "tags": [
       "Linux",
@@ -1429,7 +1429,7 @@
   },
   {
     "url": "https://medium.com/@thamizhelango/the-kernels-role-in-database-scaling-networking-and-memory-deep-dive-d103a90f8d2c",
-    "title": "The Kernel\u2019s Role in Database Scaling: Networking and Memory Deep Dive",
+    "title": "The Kernel’s Role in Database Scaling: Networking and Memory Deep Dive",
     "thumbnail": "assets/the-kernels-role-in-database-scaling-networking-and-memory-deep-dive.webp",
     "tags": [
       "Database",
@@ -1526,7 +1526,7 @@
   },
   {
     "url": "https://medium.com/@thamizhelango/rusts-async-i-o-revolution-unifying-cross-platform-development-at-compile-time-5f27e0c013d7",
-    "title": "Rust\u2019s Async I/O Revolution: Unifying Cross-Platform Development at Compile Time",
+    "title": "Rust’s Async I/O Revolution: Unifying Cross-Platform Development at Compile Time",
     "thumbnail": "assets/rusts-async-i-o-revolution-unifying-cross-platform-development-at-compile-time.webp",
     "tags": [
       "Concurrency",
@@ -1554,7 +1554,7 @@
   },
   {
     "url": "https://medium.com/@thamizhelango/webassemblys-complete-system-interface-evolution-from-two-phase-compilation-to-posix-like-491b36eeffc8",
-    "title": "WebAssembly\u2019s Complete System Interface Evolution: From Two-Phase Compilation to POSIX-like\u2026",
+    "title": "WebAssembly’s Complete System Interface Evolution: From Two-Phase Compilation to POSIX-like…",
     "thumbnail": "assets/webassemblys-complete-system-interface-evolution-from-two-phase-compilation-to-posix-like.webp",
     "tags": [
       "WebAssembly"
@@ -1595,7 +1595,7 @@
   },
   {
     "url": "https://medium.com/@thamizhelango/how-to-choose-the-right-linux-file-system-for-your-needs-and-why-ext4-reigns-supreme-f28122b003f8",
-    "title": "How to Choose the Right Linux File System for Your Needs\u200a\u2014\u200aand Why ext4 Reigns Supreme",
+    "title": "How to Choose the Right Linux File System for Your Needs — and Why ext4 Reigns Supreme",
     "thumbnail": "assets/how-to-choose-the-right-linux-file-system-for-your-needs-and-why-ext4-reigns-supreme.webp",
     "tags": [
       "Linux"
@@ -1611,7 +1611,7 @@
   },
   {
     "url": "https://medium.com/@thamizhelango/why-python-dominates-machine-learning-despite-jvms-enterprise-advantages-8d650248c068",
-    "title": "Why Python Dominates Machine Learning Despite JVM\u2019s Enterprise Advantages",
+    "title": "Why Python Dominates Machine Learning Despite JVM’s Enterprise Advantages",
     "thumbnail": "assets/why-python-dominates-machine-learning-despite-jvms-enterprise-advantages.webp",
     "tags": [
       "AI/ML",
@@ -1687,7 +1687,7 @@
   },
   {
     "url": "https://medium.com/@thamizhelango/understanding-the-linux-display-stack-display-managers-compositors-and-how-desktop-environments-54e89bf38f8c",
-    "title": "Understanding the Linux Display Stack: Display Managers, Compositors, and How Desktop Environments\u2026",
+    "title": "Understanding the Linux Display Stack: Display Managers, Compositors, and How Desktop Environments…",
     "thumbnail": "assets/understanding-the-linux-display-stack-display-managers-compositors-and-how-desktop-environments.webp",
     "tags": [
       "Linux"
@@ -1695,7 +1695,7 @@
   },
   {
     "url": "https://medium.com/@thamizhelango/why-apple-created-swift-a-strategic-deep-dive-into-language-design-ecosystem-control-and-the-8ca5af391dfc",
-    "title": "Why Apple Created Swift: A Strategic Deep Dive Into Language Design, Ecosystem Control, and the\u2026",
+    "title": "Why Apple Created Swift: A Strategic Deep Dive Into Language Design, Ecosystem Control, and the…",
     "thumbnail": "assets/why-apple-created-swift-a-strategic-deep-dive-into-language-design-ecosystem-control-and-the.webp",
     "tags": [
       "Technology"
@@ -1753,7 +1753,7 @@
   },
   {
     "url": "https://medium.com/@thamizhelango/localrecall-the-complete-guide-to-building-100-local-rag-applications-with-advanced-semantic-8c39434154b5",
-    "title": "LocalRecall: The Complete Guide to Building 100% Local RAG Applications with Advanced Semantic\u2026",
+    "title": "LocalRecall: The Complete Guide to Building 100% Local RAG Applications with Advanced Semantic…",
     "thumbnail": "assets/localrecall-the-complete-guide-to-building-100-local-rag-applications-with-advanced-semantic.webp",
     "tags": [
       "Technology"
@@ -1786,7 +1786,7 @@
   },
   {
     "url": "https://medium.com/@thamizhelango/modern-processor-architectures-how-operating-systems-navigate-smp-amp-hmp-and-numa-in-todays-b1181cb56d5c",
-    "title": "Modern Processor Architectures: How Operating Systems Navigate SMP, AMP, HMP, and NUMA in Today\u2019s\u2026",
+    "title": "Modern Processor Architectures: How Operating Systems Navigate SMP, AMP, HMP, and NUMA in Today’s…",
     "thumbnail": "assets/modern-processor-architectures-how-operating-systems-navigate-smp-amp-hmp-and-numa-in-todays.webp",
     "tags": [
       "Technology"
@@ -1794,7 +1794,7 @@
   },
   {
     "url": "https://medium.com/@thamizhelango/turn-your-dusty-old-pc-into-a-media-empire-for-free-3b1ca0ff900a",
-    "title": "Turn Your Dusty Old PC Into a Media Empire (For Free!) \ud83d\udd25",
+    "title": "Turn Your Dusty Old PC Into a Media Empire (For Free!) 🔥",
     "thumbnail": "assets/turn-your-dusty-old-pc-into-a-media-empire-for-free.webp",
     "tags": [
       "Technology"
@@ -1802,7 +1802,7 @@
   },
   {
     "url": "https://medium.com/@thamizhelango/the-complete-guide-to-googles-agent-development-kit-from-basics-to-real-time-applications-8355df6d72ce",
-    "title": "The Complete Guide to Google\u2019s Agent Development Kit: From Basics to Real-Time Applications",
+    "title": "The Complete Guide to Google’s Agent Development Kit: From Basics to Real-Time Applications",
     "thumbnail": "assets/the-complete-guide-to-googles-agent-development-kit-from-basics-to-real-time-applications.webp",
     "tags": [
       "WebRTC"
@@ -1861,7 +1861,7 @@
   },
   {
     "url": "https://medium.com/@thamizhelango/the-lxc-lxd-story-why-technical-excellence-wasnt-enough-to-win-the-container-race-2212bffed008",
-    "title": "The LXC/LXD Story: Why Technical Excellence Wasn\u2019t Enough to Win the Container Race",
+    "title": "The LXC/LXD Story: Why Technical Excellence Wasn’t Enough to Win the Container Race",
     "thumbnail": "assets/the-lxc-lxd-story-why-technical-excellence-wasnt-enough-to-win-the-container-race.webp",
     "tags": [
       "Docker"
@@ -1869,7 +1869,7 @@
   },
   {
     "url": "https://medium.com/@thamizhelango/gos-concurrency-revolution-why-developers-are-ditching-threads-for-goroutines-ca6ac0e11b77",
-    "title": "Go\u2019s Concurrency Revolution: Why Developers Are Ditching Threads for Goroutines",
+    "title": "Go’s Concurrency Revolution: Why Developers Are Ditching Threads for Goroutines",
     "thumbnail": "assets/gos-concurrency-revolution-why-developers-are-ditching-threads-for-goroutines.webp",
     "tags": [
       "Concurrency",
@@ -1935,7 +1935,7 @@
   },
   {
     "url": "https://medium.com/@thamizhelango/understanding-nvidias-gpu-computing-ecosystem-a-complete-guide-with-code-examples-7a9b2716b580",
-    "title": "Understanding NVIDIA\u2019s GPU Computing Ecosystem: A Complete Guide with Code Examples",
+    "title": "Understanding NVIDIA’s GPU Computing Ecosystem: A Complete Guide with Code Examples",
     "thumbnail": "assets/understanding-nvidias-gpu-computing-ecosystem-a-complete-guide-with-code-examples.webp",
     "tags": [
       "Technology"
@@ -1976,7 +1976,7 @@
   },
   {
     "url": "https://medium.com/@thamizhelango/mastering-stochastic-gradient-descent-with-dual-nvidia-rtx-3090-gpus-large-scale-deep-learning-f6fb1b24188d",
-    "title": "Mastering Stochastic Gradient Descent with Dual NVIDIA RTX 3090 GPUs: Large-Scale Deep Learning\u2026",
+    "title": "Mastering Stochastic Gradient Descent with Dual NVIDIA RTX 3090 GPUs: Large-Scale Deep Learning…",
     "thumbnail": "assets/mastering-stochastic-gradient-descent-with-dual-nvidia-rtx-3090-gpus-large-scale-deep-learning.webp",
     "tags": [
       "AI/ML"
@@ -1984,7 +1984,7 @@
   },
   {
     "url": "https://medium.com/@thamizhelango/why-data-centers-need-dedicated-hardware-ntp-servers-the-critical-foundation-of-distributed-9632515cda14",
-    "title": "Why Data Centers Need Dedicated Hardware NTP Servers: The Critical Foundation of Distributed\u2026",
+    "title": "Why Data Centers Need Dedicated Hardware NTP Servers: The Critical Foundation of Distributed…",
     "thumbnail": "assets/why-data-centers-need-dedicated-hardware-ntp-servers-the-critical-foundation-of-distributed.webp",
     "tags": [
       "Technology"
@@ -2138,7 +2138,7 @@
   },
   {
     "url": "https://medium.com/@thamizhelango/the-slackware-story-how-patrick-volkerding-built-linuxs-oldest-surviving-distribution-6860829b517c",
-    "title": "The Slackware Story: How Patrick Volkerding Built Linux\u2019s Oldest Surviving Distribution",
+    "title": "The Slackware Story: How Patrick Volkerding Built Linux’s Oldest Surviving Distribution",
     "thumbnail": "assets/the-slackware-story-how-patrick-volkerding-built-linuxs-oldest-surviving-distribution.webp",
     "tags": [
       "Linux"
@@ -2154,7 +2154,7 @@
   },
   {
     "url": "https://medium.com/@thamizhelango/choosing-your-first-iot-board-a-practical-engineers-guide-a52eec20e5d7",
-    "title": "Choosing Your First IoT Board: A Practical Engineer\u2019s Guide",
+    "title": "Choosing Your First IoT Board: A Practical Engineer’s Guide",
     "thumbnail": "assets/choosing-your-first-iot-board-a-practical-engineers-guide.webp",
     "tags": [
       "Technology"
@@ -2195,7 +2195,7 @@
   },
   {
     "url": "https://medium.com/@thamizhelango/the-microkernel-advantage-gnu-hurds-revolutionary-operating-system-design-1d06a673c77c",
-    "title": "The Microkernel Advantage: GNU Hurd\u2019s Revolutionary Operating System Design",
+    "title": "The Microkernel Advantage: GNU Hurd’s Revolutionary Operating System Design",
     "thumbnail": "assets/the-microkernel-advantage-gnu-hurds-revolutionary-operating-system-design.webp",
     "tags": [
       "Technology"
@@ -2203,7 +2203,7 @@
   },
   {
     "url": "https://medium.com/@thamizhelango/why-amazon-chose-paraccel-for-redshift-the-strategic-decision-that-transformed-cloud-data-e746f88bfc44",
-    "title": "Why Amazon Chose ParAccel for Redshift: The Strategic Decision That Transformed Cloud Data\u2026",
+    "title": "Why Amazon Chose ParAccel for Redshift: The Strategic Decision That Transformed Cloud Data…",
     "thumbnail": "assets/why-amazon-chose-paraccel-for-redshift-the-strategic-decision-that-transformed-cloud-data.webp",
     "tags": [
       "Cloud"
@@ -2220,7 +2220,7 @@
   },
   {
     "url": "https://medium.com/@thamizhelango/netbsds-rump-kernel-framework-a-deep-dive-into-modular-kernel-architecture-b19e5aaad06d",
-    "title": "NetBSD\u2019s Rump Kernel Framework: A Deep Dive into Modular Kernel Architecture",
+    "title": "NetBSD’s Rump Kernel Framework: A Deep Dive into Modular Kernel Architecture",
     "thumbnail": "assets/netbsds-rump-kernel-framework-a-deep-dive-into-modular-kernel-architecture.webp",
     "tags": [
       "Architecture"
@@ -2244,7 +2244,7 @@
   },
   {
     "url": "https://medium.com/@thamizhelango/freebsd-kqueue-vs-linux-epoll-why-kqueue-often-outperforms-and-its-impact-on-network-1ae39afb6e16",
-    "title": "FreeBSD kqueue vs Linux epoll: Why kqueue Often Outperforms and Its Impact on Network\u2026",
+    "title": "FreeBSD kqueue vs Linux epoll: Why kqueue Often Outperforms and Its Impact on Network…",
     "thumbnail": "assets/freebsd-kqueue-vs-linux-epoll-why-kqueue-often-outperforms-and-its-impact-on-network.webp",
     "tags": [
       "Linux",
@@ -2294,7 +2294,7 @@
   },
   {
     "url": "https://medium.com/@thamizhelango/in-toto-securing-software-supply-chains-a-comprehensive-guide-76945d257004",
-    "title": "In-Toto: Securing Software Supply Chains\u200a\u2014\u200aA Comprehensive Guide",
+    "title": "In-Toto: Securing Software Supply Chains — A Comprehensive Guide",
     "thumbnail": "assets/in-toto-securing-software-supply-chains-a-comprehensive-guide.webp",
     "tags": [
       "Technology"
@@ -2355,7 +2355,7 @@
   },
   {
     "url": "https://medium.com/@thamizhelango/setting-up-debezium-cdc-change-data-capture-in-kubernetes-a-complete-guide-with-real-time-26a0c13b1508",
-    "title": "Setting up Debezium CDC (Change Data Capture) in Kubernetes: A Complete Guide with Real-Time\u2026",
+    "title": "Setting up Debezium CDC (Change Data Capture) in Kubernetes: A Complete Guide with Real-Time…",
     "thumbnail": "assets/setting-up-debezium-cdc-change-data-capture-in-kubernetes-a-complete-guide-with-real-time.webp",
     "tags": [
       "Kubernetes",
@@ -2414,7 +2414,7 @@
   },
   {
     "url": "https://medium.com/@thamizhelango/kubernetes-ingress-gateway-vs-gateway-api-a-comprehensive-guide-d8546347e073",
-    "title": "Kubernetes: Ingress Gateway vs Gateway API\u200a\u2014\u200aA Comprehensive Guide",
+    "title": "Kubernetes: Ingress Gateway vs Gateway API — A Comprehensive Guide",
     "thumbnail": "assets/kubernetes-ingress-gateway-vs-gateway-api-a-comprehensive-guide.webp",
     "tags": [
       "Kubernetes",
@@ -2423,7 +2423,7 @@
   },
   {
     "url": "https://medium.com/@thamizhelango/scaling-spring-boot-applications-with-keda-a-complete-guide-to-database-transaction-based-3f77cb54723b",
-    "title": "Scaling Spring Boot Applications with KEDA: A Complete Guide to Database Transaction-Based\u2026",
+    "title": "Scaling Spring Boot Applications with KEDA: A Complete Guide to Database Transaction-Based…",
     "thumbnail": "assets/scaling-spring-boot-applications-with-keda-a-complete-guide-to-database-transaction-based.webp",
     "tags": [
       "Boot Process",
@@ -2548,7 +2548,7 @@
   },
   {
     "url": "https://medium.com/@thamizhelango/how-rocky-linux-and-almalinux-are-navigating-red-hats-source-code-restrictions-a-tale-of-0d103479f51d",
-    "title": "How Rocky Linux and AlmaLinux Are Navigating Red Hat\u2019s Source Code Restrictions: A Tale of\u2026",
+    "title": "How Rocky Linux and AlmaLinux Are Navigating Red Hat’s Source Code Restrictions: A Tale of…",
     "thumbnail": "assets/how-rocky-linux-and-almalinux-are-navigating-red-hats-source-code-restrictions-a-tale-of.webp",
     "tags": [
       "Linux"
@@ -2589,7 +2589,7 @@
   },
   {
     "url": "https://medium.com/@thamizhelango/the-architecture-behind-macos-a-deep-dive-into-apples-operating-system-stack-c99b5d21d86f",
-    "title": "The Architecture Behind macOS: A Deep Dive into Apple\u2019s Operating System Stack",
+    "title": "The Architecture Behind macOS: A Deep Dive into Apple’s Operating System Stack",
     "thumbnail": "assets/the-architecture-behind-macos-a-deep-dive-into-apples-operating-system-stack.webp",
     "tags": [
       "Architecture"
@@ -2613,7 +2613,7 @@
   },
   {
     "url": "https://medium.com/@thamizhelango/how-service-mesh-technology-revolutionized-lyfts-microservice-architecture-the-envoy-story-50d316b7b1ce",
-    "title": "How Service Mesh Technology Revolutionized Lyft\u2019s Microservice Architecture: The Envoy Story",
+    "title": "How Service Mesh Technology Revolutionized Lyft’s Microservice Architecture: The Envoy Story",
     "thumbnail": "assets/how-service-mesh-technology-revolutionized-lyfts-microservice-architecture-the-envoy-story.webp",
     "tags": [
       "Architecture",
@@ -2646,7 +2646,7 @@
   },
   {
     "url": "https://medium.com/@thamizhelango/why-kelsey-hightower-says-you-shouldnt-deploy-stateful-workloads-in-kubernetes-06ee63f65117",
-    "title": "Why Kelsey Hightower Says You Shouldn\u2019t Deploy Stateful Workloads in Kubernetes",
+    "title": "Why Kelsey Hightower Says You Shouldn’t Deploy Stateful Workloads in Kubernetes",
     "thumbnail": "assets/why-kelsey-hightower-says-you-shouldnt-deploy-stateful-workloads-in-kubernetes.webp",
     "tags": [
       "Kubernetes"
@@ -2679,7 +2679,7 @@
   },
   {
     "url": "https://medium.com/@thamizhelango/the-aws-sagemaker-paradox-why-a-capable-platform-struggles-in-todays-ml-landscape-88d7913f3318",
-    "title": "The AWS SageMaker Paradox: Why a Capable Platform Struggles in Today\u2019s ML Landscape",
+    "title": "The AWS SageMaker Paradox: Why a Capable Platform Struggles in Today’s ML Landscape",
     "thumbnail": "assets/the-aws-sagemaker-paradox-why-a-capable-platform-struggles-in-todays-ml-landscape.webp",
     "tags": [
       "AI/ML",
@@ -2696,7 +2696,7 @@
   },
   {
     "url": "https://medium.com/@thamizhelango/how-amazon-ecs-revolutionizes-blue-green-deployments-a-complete-guide-to-zero-downtime-container-a62ab647344c",
-    "title": "How Amazon ECS Revolutionizes Blue-Green Deployments: A Complete Guide to Zero-Downtime Container\u2026",
+    "title": "How Amazon ECS Revolutionizes Blue-Green Deployments: A Complete Guide to Zero-Downtime Container…",
     "thumbnail": "assets/how-amazon-ecs-revolutionizes-blue-green-deployments-a-complete-guide-to-zero-downtime-container.webp",
     "tags": [
       "Docker"
@@ -2722,7 +2722,7 @@
   },
   {
     "url": "https://medium.com/@thamizhelango/kubevirt-running-virtual-machines-on-kubernetes-a-complete-guide-efa131ced207",
-    "title": "KubeVirt: Running Virtual Machines on Kubernetes\u200a\u2014\u200aA Complete Guide",
+    "title": "KubeVirt: Running Virtual Machines on Kubernetes — A Complete Guide",
     "thumbnail": "assets/kubevirt-running-virtual-machines-on-kubernetes-a-complete-guide.webp",
     "tags": [
       "Kubernetes"
@@ -2730,7 +2730,7 @@
   },
   {
     "url": "https://medium.com/@thamizhelango/demystifying-ai-agents-whats-really-under-the-hood-d1744666a37a",
-    "title": "Demystifying AI Agents: What\u2019s Really Under the Hood",
+    "title": "Demystifying AI Agents: What’s Really Under the Hood",
     "thumbnail": "assets/demystifying-ai-agents-whats-really-under-the-hood.webp",
     "tags": [
       "AI"
@@ -2763,7 +2763,7 @@
   },
   {
     "url": "https://medium.com/@thamizhelango/crossplane-kubernetes-native-infrastructure-management-complete-guide-with-real-time-example-1a5b0033d5df",
-    "title": "Crossplane: Kubernetes-Native Infrastructure Management\u200a\u2014\u200aComplete Guide with Real-Time Example",
+    "title": "Crossplane: Kubernetes-Native Infrastructure Management — Complete Guide with Real-Time Example",
     "thumbnail": "assets/crossplane-kubernetes-native-infrastructure-management-complete-guide-with-real-time-example.webp",
     "tags": [
       "Kubernetes",
@@ -2830,7 +2830,7 @@
   },
   {
     "url": "https://medium.com/@thamizhelango/the-ultimate-guide-to-installing-talos-linux-for-kubernetes-a-modern-approach-to-container-7c8361663f91",
-    "title": "The Ultimate Guide to Installing Talos Linux for Kubernetes: A Modern Approach to Container\u2026",
+    "title": "The Ultimate Guide to Installing Talos Linux for Kubernetes: A Modern Approach to Container…",
     "thumbnail": "assets/the-ultimate-guide-to-installing-talos-linux-for-kubernetes-a-modern-approach-to-container.webp",
     "tags": [
       "Docker",
@@ -2905,7 +2905,7 @@
   },
   {
     "url": "https://medium.com/@thamizhelango/java-vs-rust-the-wora-battle-who-truly-excels-at-write-once-run-anywhere-a3f05950dccf",
-    "title": "Java vs Rust: The WORA Battle\u200a\u2014\u200aWho Truly Excels at Write Once, Run Anywhere?",
+    "title": "Java vs Rust: The WORA Battle — Who Truly Excels at Write Once, Run Anywhere?",
     "thumbnail": "assets/java-vs-rust-the-wora-battle-who-truly-excels-at-write-once-run-anywhere.webp",
     "tags": [
       "Java",
@@ -2914,7 +2914,7 @@
   },
   {
     "url": "https://medium.com/@thamizhelango/tls-encryption-in-kubernetes-why-its-critical-and-how-to-implement-it-9b1e06532a13",
-    "title": "TLS Encryption in Kubernetes: Why It\u2019s Critical and How to Implement It",
+    "title": "TLS Encryption in Kubernetes: Why It’s Critical and How to Implement It",
     "thumbnail": "assets/tls-encryption-in-kubernetes-why-its-critical-and-how-to-implement-it.webp",
     "tags": [
       "Kubernetes"
@@ -2922,7 +2922,7 @@
   },
   {
     "url": "https://medium.com/@thamizhelango/the-ultimate-ai-coding-assistant-showdown-claude-code-vs-gemini-cli-vs-cursor-vs-windsurf-vs-e71f1b320108",
-    "title": "The Ultimate AI Coding Assistant Showdown: Claude Code vs Gemini CLI vs Cursor vs Windsurf vs\u2026",
+    "title": "The Ultimate AI Coding Assistant Showdown: Claude Code vs Gemini CLI vs Cursor vs Windsurf vs…",
     "thumbnail": "assets/the-ultimate-ai-coding-assistant-showdown-claude-code-vs-gemini-cli-vs-cursor-vs-windsurf-vs.webp",
     "tags": [
       "AI",
@@ -3040,7 +3040,7 @@
   },
   {
     "url": "https://medium.com/@thamizhelango/yes-ecs-native-blue-green-deployments-can-be-done-across-aws-accounts-using-codepipeline-but-it-6d5ec04e83a4",
-    "title": "Yes, ECS native blue-green deployments can be done across AWS accounts using CodePipeline \u2014 but it\u2026",
+    "title": "Yes, ECS native blue-green deployments can be done across AWS accounts using CodePipeline — but it…",
     "thumbnail": "assets/yes-ecs-native-blue-green-deployments-can-be-done-across-aws-accounts-using-codepipeline-but-it.webp",
     "tags": [
       "Cloud"
@@ -3066,7 +3066,7 @@
   },
   {
     "url": "https://medium.com/@thamizhelango/windows-wsl-as-a-docker-master-os-level-containerization-on-windows-1b569e398507",
-    "title": "Windows WSL-as-a-Docker\u00a0: Master OS-Level Containerization on Windows",
+    "title": "Windows WSL-as-a-Docker : Master OS-Level Containerization on Windows",
     "thumbnail": "assets/windows-wsl-as-a-docker-master-os-level-containerization-on-windows.webp",
     "tags": [
       "Docker"
@@ -3074,7 +3074,7 @@
   },
   {
     "url": "https://medium.com/@thamizhelango/cachyos-arch-linux-on-steroids-a-deep-dive-into-performance-security-and-usability-a1fcd8a6811c",
-    "title": "\ud83d\ude80 CachyOS: Arch Linux on Steroids\u200a\u2014\u200aA Deep Dive into Performance, Security, and Usability",
+    "title": "🚀 CachyOS: Arch Linux on Steroids — A Deep Dive into Performance, Security, and Usability",
     "thumbnail": "assets/cachyos-arch-linux-on-steroids-a-deep-dive-into-performance-security-and-usability.webp",
     "tags": [
       "Linux",
@@ -3134,7 +3134,7 @@
   },
   {
     "url": "https://medium.com/@thamizhelango/from-blackberry-to-the-drivers-seat-how-rim-transformed-qnx-from-smartphone-software-to-1c6d41f443d1",
-    "title": "From BlackBerry to the Driver\u2019s Seat: How RIM Transformed QNX from Smartphone Software to\u2026",
+    "title": "From BlackBerry to the Driver’s Seat: How RIM Transformed QNX from Smartphone Software to…",
     "thumbnail": "assets/from-blackberry-to-the-drivers-seat-how-rim-transformed-qnx-from-smartphone-software-to.webp",
     "tags": [
       "Technology"
@@ -3142,7 +3142,7 @@
   },
   {
     "url": "https://medium.com/@thamizhelango/understanding-podman-why-another-container-tool-2846b9868242",
-    "title": "Understanding Podman: Why Another Container Tool? \ud83d\udc27",
+    "title": "Understanding Podman: Why Another Container Tool? 🐧",
     "thumbnail": "assets/understanding-podman-why-another-container-tool.webp",
     "tags": [
       "Docker"
@@ -3167,7 +3167,7 @@
   },
   {
     "url": "https://medium.com/@thamizhelango/understanding-linux-desktop-components-display-servers-compositors-window-managers-and-desktop-e07c9c45dcce",
-    "title": "Understanding Linux Desktop Components: Display Servers, Compositors, Window Managers, and Desktop\u2026",
+    "title": "Understanding Linux Desktop Components: Display Servers, Compositors, Window Managers, and Desktop…",
     "thumbnail": "assets/understanding-linux-desktop-components-display-servers-compositors-window-managers-and-desktop.webp",
     "tags": [
       "Linux"
@@ -3217,7 +3217,7 @@
   },
   {
     "url": "https://medium.com/@thamizhelango/the-container-crown-how-kubernetes-conquered-the-orchestration-kingdom-and-left-mesos-marathon-in-82d462b73812",
-    "title": "The Container Crown: How Kubernetes Conquered the Orchestration Kingdom and Left Mesos Marathon in\u2026",
+    "title": "The Container Crown: How Kubernetes Conquered the Orchestration Kingdom and Left Mesos Marathon in…",
     "thumbnail": "assets/the-container-crown-how-kubernetes-conquered-the-orchestration-kingdom-and-left-mesos-marathon-in.webp",
     "tags": [
       "Docker",
@@ -3226,7 +3226,7 @@
   },
   {
     "url": "https://medium.com/@thamizhelango/breaking-down-ais-biggest-wall-how-anthropic-s-mcp-solves-the-m-n-integration-nightmare-ad2a6273d0a6",
-    "title": "Breaking Down AI\u2019s Biggest Wall: How Anthropic\u2019s MCP Solves the \u201cM\u00d7N Integration Nightmare\u201d",
+    "title": "Breaking Down AI’s Biggest Wall: How Anthropic’s MCP Solves the “M×N Integration Nightmare”",
     "thumbnail": "assets/breaking-down-ais-biggest-wall-how-anthropic-s-mcp-solves-the-m-n-integration-nightmare.webp",
     "tags": [
       "AI",
@@ -3253,7 +3253,7 @@
   },
   {
     "url": "https://medium.com/@thamizhelango/from-cloud-savior-to-cautionary-tale-the-untold-story-of-openstacks-private-cloud-journey-161acb8a2918",
-    "title": "From Cloud Savior to Cautionary Tale: The Untold Story of OpenStack\u2019s Private Cloud Journey",
+    "title": "From Cloud Savior to Cautionary Tale: The Untold Story of OpenStack’s Private Cloud Journey",
     "thumbnail": "assets/from-cloud-savior-to-cautionary-tale-the-untold-story-of-openstacks-private-cloud-journey.webp",
     "tags": [
       "Cloud"
@@ -3311,7 +3311,7 @@
   },
   {
     "url": "https://medium.com/@thamizhelango/linux-kernel-6-16-the-developers-powerhouse-a-complete-deep-dive-10a7829633c1",
-    "title": "Linux Kernel 6.16: The Developer\u2019s Powerhouse\u200a\u2014\u200aA Complete Deep Dive",
+    "title": "Linux Kernel 6.16: The Developer’s Powerhouse — A Complete Deep Dive",
     "thumbnail": "assets/linux-kernel-6-16-the-developers-powerhouse-a-complete-deep-dive.webp",
     "tags": [
       "Linux"
@@ -3327,7 +3327,7 @@
   },
   {
     "url": "https://medium.com/@thamizhelango/the-rise-and-fall-of-ml-inference-platforms-what-happened-to-the-ai-infrastructure-gold-rush-86833d33c067",
-    "title": "The Rise and Fall of ML Inference Platforms: What Happened to the \u201cAI Infrastructure\u201d Gold Rush?",
+    "title": "The Rise and Fall of ML Inference Platforms: What Happened to the “AI Infrastructure” Gold Rush?",
     "thumbnail": "assets/the-rise-and-fall-of-ml-inference-platforms-what-happened-to-the-ai-infrastructure-gold-rush.webp",
     "tags": [
       "AI",
@@ -3423,7 +3423,7 @@
   },
   {
     "url": "https://medium.com/@thamizhelango/the-complete-guide-to-kubernetes-storage-solutions-navigating-block-file-and-object-storage-in-1b81312a75f1",
-    "title": "The Complete Guide to Kubernetes Storage Solutions: Navigating Block, File, and Object Storage in\u2026",
+    "title": "The Complete Guide to Kubernetes Storage Solutions: Navigating Block, File, and Object Storage in…",
     "thumbnail": "assets/the-complete-guide-to-kubernetes-storage-solutions-navigating-block-file-and-object-storage-in.webp",
     "tags": [
       "Kubernetes",
@@ -3482,7 +3482,7 @@
   },
   {
     "url": "https://medium.com/@thamizhelango/the-shifting-semiconductor-landscape-intel-arm-aws-apple-microsoft-qualcomm-mediatek-5ba9382211a2",
-    "title": "The Shifting Semiconductor Landscape: Intel, Arm, AWS, Apple, Microsoft, Qualcomm, MediaTek\u2026",
+    "title": "The Shifting Semiconductor Landscape: Intel, Arm, AWS, Apple, Microsoft, Qualcomm, MediaTek…",
     "thumbnail": "assets/the-shifting-semiconductor-landscape-intel-arm-aws-apple-microsoft-qualcomm-mediatek.webp",
     "tags": [
       "Cloud"
@@ -3490,7 +3490,7 @@
   },
   {
     "url": "https://medium.com/@thamizhelango/grub-the-grand-unified-bootloader-a-deep-dive-into-linuxs-boot-manager-ab8330821184",
-    "title": "GRUB: The Grand Unified Bootloader\u200a\u2014\u200aA Deep Dive into Linux\u2019s Boot Manager",
+    "title": "GRUB: The Grand Unified Bootloader — A Deep Dive into Linux’s Boot Manager",
     "thumbnail": "assets/grub-the-grand-unified-bootloader-a-deep-dive-into-linuxs-boot-manager.webp",
     "tags": [
       "Boot Process",
@@ -3531,7 +3531,7 @@
   },
   {
     "url": "https://medium.com/@thamizhelango/how-vmware-revolutionized-computing-achieving-x86-virtualization-before-intel-vt-x-and-amd-v-49d54f5f4316",
-    "title": "How VMware Revolutionized Computing: Achieving x86 Virtualization Before Intel VT-x and AMD-V\u2026",
+    "title": "How VMware Revolutionized Computing: Achieving x86 Virtualization Before Intel VT-x and AMD-V…",
     "thumbnail": "assets/how-vmware-revolutionized-computing-achieving-x86-virtualization-before-intel-vt-x-and-amd-v.webp",
     "tags": [
       "Virtualization"
@@ -3564,7 +3564,7 @@
   },
   {
     "url": "https://medium.com/@thamizhelango/production-ready-vitess-database-with-high-iops-using-openebs-on-kubernetes-a-complete-c5aa8bb3985d",
-    "title": "Production-Ready Vitess Database with High IOPS using OpenEBS on Kubernetes: A Complete\u2026",
+    "title": "Production-Ready Vitess Database with High IOPS using OpenEBS on Kubernetes: A Complete…",
     "thumbnail": "assets/production-ready-vitess-database-with-high-iops-using-openebs-on-kubernetes-a-complete.webp",
     "tags": [
       "Database",
@@ -3581,7 +3581,7 @@
   },
   {
     "url": "https://medium.com/@thamizhelango/openyurt-extending-kubernetes-to-the-edge-a-complete-setup-guide-52de92674dc7",
-    "title": "OpenYurt: Extending Kubernetes to the Edge\u200a\u2014\u200aA Complete Setup Guide",
+    "title": "OpenYurt: Extending Kubernetes to the Edge — A Complete Setup Guide",
     "thumbnail": "assets/openyurt-extending-kubernetes-to-the-edge-a-complete-setup-guide.webp",
     "tags": [
       "Kubernetes"
@@ -3598,7 +3598,7 @@
   },
   {
     "url": "https://medium.com/@thamizhelango/the-rise-and-fall-of-openvz-the-forgotten-pioneer-of-linux-containerization-48ada961e2b3",
-    "title": "\ud83d\udc27 The Rise and Fall of OpenVZ: The Forgotten Pioneer of Linux Containerization",
+    "title": "🐧 The Rise and Fall of OpenVZ: The Forgotten Pioneer of Linux Containerization",
     "thumbnail": "assets/the-rise-and-fall-of-openvz-the-forgotten-pioneer-of-linux-containerization.webp",
     "tags": [
       "Linux"
@@ -3614,7 +3614,7 @@
   },
   {
     "url": "https://medium.com/@thamizhelango/combining-multiple-ips-into-one-in-linux-bonding-ipvs-and-nat-explained-3e17b5c8a225",
-    "title": "\ud83c\udf10 Combining Multiple IPs into One in Linux: Bonding, IPVS, and NAT Explained",
+    "title": "🌐 Combining Multiple IPs into One in Linux: Bonding, IPVS, and NAT Explained",
     "thumbnail": "assets/combining-multiple-ips-into-one-in-linux-bonding-ipvs-and-nat-explained.webp",
     "tags": [
       "Linux"
@@ -3630,7 +3630,7 @@
   },
   {
     "url": "https://medium.com/@thamizhelango/linux-kernel-maintenance-across-distributions-the-complete-guide-03e50d6e7ccc",
-    "title": "\ud83d\udc27 Linux Kernel Maintenance Across Distributions: The Complete Guide",
+    "title": "🐧 Linux Kernel Maintenance Across Distributions: The Complete Guide",
     "thumbnail": "assets/linux-kernel-maintenance-across-distributions-the-complete-guide.webp",
     "tags": [
       "Linux"
@@ -3664,7 +3664,7 @@
   },
   {
     "url": "https://medium.com/@thamizhelango/understanding-initramfs-and-ubuntus-transition-to-dracut-a-deep-dive-into-linux-boot-evolution-f01b6c2b2e19",
-    "title": "Understanding initramfs and Ubuntu\u2019s Transition to dracut: A Deep Dive into Linux Boot Evolution",
+    "title": "Understanding initramfs and Ubuntu’s Transition to dracut: A Deep Dive into Linux Boot Evolution",
     "thumbnail": "assets/understanding-initramfs-and-ubuntus-transition-to-dracut-a-deep-dive-into-linux-boot-evolution.webp",
     "tags": [
       "Boot Process",
@@ -3681,7 +3681,7 @@
   },
   {
     "url": "https://medium.com/@thamizhelango/building-a-bulletproof-testing-strategy-for-monolithic-applications-a-complete-guide-to-tdd-and-689aa47de541",
-    "title": "Building a Bulletproof Testing Strategy for Monolithic Applications: A Complete Guide to TDD and\u2026",
+    "title": "Building a Bulletproof Testing Strategy for Monolithic Applications: A Complete Guide to TDD and…",
     "thumbnail": "assets/building-a-bulletproof-testing-strategy-for-monolithic-applications-a-complete-guide-to-tdd-and.webp",
     "tags": [
       "Technology"
@@ -3782,7 +3782,7 @@
   },
   {
     "url": "https://medium.com/@thamizhelango/from-hero-to-zero-the-rise-and-fall-of-cloud-foundry-how-kubernetes-killed-the-paas-pioneer-708c06195de9",
-    "title": "From Hero to Zero: The Rise and Fall of Cloud Foundry\u200a\u2014\u200aHow Kubernetes Killed the PaaS Pioneer",
+    "title": "From Hero to Zero: The Rise and Fall of Cloud Foundry — How Kubernetes Killed the PaaS Pioneer",
     "thumbnail": "assets/from-hero-to-zero-the-rise-and-fall-of-cloud-foundry-how-kubernetes-killed-the-paas-pioneer.webp",
     "tags": [
       "Cloud",
@@ -3825,7 +3825,7 @@
   },
   {
     "url": "https://medium.com/@thamizhelango/yes-ive-faced-that-issue-too-73ccfd011c18",
-    "title": "Yes, I\u2019ve faced that issue too.",
+    "title": "Yes, I’ve faced that issue too.",
     "thumbnail": "assets/yes-ive-faced-that-issue-too.webp",
     "tags": [
       "Technology"
@@ -3833,7 +3833,7 @@
   },
   {
     "url": "https://medium.com/@thamizhelango/%EF%B8%8F-virtualization-demystified-from-emulation-to-sr-iov-db08b5bdde6b",
-    "title": "\ud83d\udda5\ufe0f Virtualization Demystified: From Emulation to SR-IOV",
+    "title": "🖥️ Virtualization Demystified: From Emulation to SR-IOV",
     "thumbnail": "assets/%EF%B8%8F-virtualization-demystified-from-emulation-to-sr-iov.webp",
     "tags": [
       "Virtualization"
@@ -3850,7 +3850,7 @@
   },
   {
     "url": "https://medium.com/@thamizhelango/nvidia-rtx-3090-gpu-virtualization-in-qemu-performance-showdown-907daecaa964",
-    "title": "\ud83c\udfae NVIDIA RTX 3090 GPU Virtualization in QEMU: Performance Showdown",
+    "title": "🎮 NVIDIA RTX 3090 GPU Virtualization in QEMU: Performance Showdown",
     "thumbnail": "assets/nvidia-rtx-3090-gpu-virtualization-in-qemu-performance-showdown.webp",
     "tags": [
       "Performance",
@@ -3859,7 +3859,7 @@
   },
   {
     "url": "https://medium.com/@thamizhelango/unleashing-nvme-performance-intels-spdk-revolution-vs-traditional-linux-storage-ca2647296836",
-    "title": "Unleashing NVMe Performance: Intel\u2019s SPDK Revolution vs Traditional Linux Storage",
+    "title": "Unleashing NVMe Performance: Intel’s SPDK Revolution vs Traditional Linux Storage",
     "thumbnail": "assets/unleashing-nvme-performance-intels-spdk-revolution-vs-traditional-linux-storage.webp",
     "tags": [
       "Linux",
@@ -3877,7 +3877,7 @@
   },
   {
     "url": "https://medium.com/@thamizhelango/pythons-global-interpreter-lock-and-jvm-implementations-a-tale-of-two-worlds-73bde1d354a9",
-    "title": "Python\u2019s Global Interpreter Lock and JVM Implementations: A Tale of Two Worlds",
+    "title": "Python’s Global Interpreter Lock and JVM Implementations: A Tale of Two Worlds",
     "thumbnail": "assets/pythons-global-interpreter-lock-and-jvm-implementations-a-tale-of-two-worlds.webp",
     "tags": [
       "Java",
@@ -3886,7 +3886,7 @@
   },
   {
     "url": "https://medium.com/@thamizhelango/the-complete-guide-to-linux-installation-methods-from-plug-and-play-to-building-your-own-distro-ab4c4f23575d",
-    "title": "\ud83d\udc27 The Complete Guide to Linux Installation Methods: From Plug-and-Play to Building Your Own Distro",
+    "title": "🐧 The Complete Guide to Linux Installation Methods: From Plug-and-Play to Building Your Own Distro",
     "thumbnail": "assets/the-complete-guide-to-linux-installation-methods-from-plug-and-play-to-building-your-own-distro.webp",
     "tags": [
       "Linux"
@@ -3903,7 +3903,7 @@
   },
   {
     "url": "https://medium.com/@thamizhelango/freebsds-bhyve-and-jail-the-enterprise-ready-isolation-platform-you-haven-t-considered-fe90e67ae6f3",
-    "title": "FreeBSD\u2019s bhyve and Jail: The Enterprise-Ready Isolation Platform You Haven\u2019t Considered",
+    "title": "FreeBSD’s bhyve and Jail: The Enterprise-Ready Isolation Platform You Haven’t Considered",
     "thumbnail": "assets/freebsds-bhyve-and-jail-the-enterprise-ready-isolation-platform-you-haven-t-considered.webp",
     "tags": [
       "Architecture"
@@ -3911,7 +3911,7 @@
   },
   {
     "url": "https://medium.com/@thamizhelango/revolutionizing-network-performance-intels-dpdk-vs-traditional-linux-networking-9029d063ae53",
-    "title": "Revolutionizing Network Performance: Intel\u2019s DPDK vs Traditional Linux Networking",
+    "title": "Revolutionizing Network Performance: Intel’s DPDK vs Traditional Linux Networking",
     "thumbnail": "assets/revolutionizing-network-performance-intels-dpdk-vs-traditional-linux-networking.webp",
     "tags": [
       "Linux",
@@ -3929,7 +3929,7 @@
   },
   {
     "url": "https://medium.com/@thamizhelango/from-hurd-to-sel4-how-stallmans-microkernel-vision-stood-the-test-of-time-1a3091043315",
-    "title": "From Hurd to seL4: How Stallman\u2019s Microkernel Vision Stood the Test of Time",
+    "title": "From Hurd to seL4: How Stallman’s Microkernel Vision Stood the Test of Time",
     "thumbnail": "assets/from-hurd-to-sel4-how-stallmans-microkernel-vision-stood-the-test-of-time.webp",
     "tags": [
       "Technology"
@@ -3937,7 +3937,7 @@
   },
   {
     "url": "https://medium.com/@thamizhelango/redpanda-vs-kafka-how-seastars-async-framework-delivers-superior-scalability-69af62daca88",
-    "title": "Redpanda vs Kafka: How Seastar\u2019s Async Framework Delivers Superior Scalability",
+    "title": "Redpanda vs Kafka: How Seastar’s Async Framework Delivers Superior Scalability",
     "thumbnail": "assets/redpanda-vs-kafka-how-seastars-async-framework-delivers-superior-scalability.webp",
     "tags": [
       "Big Data",
@@ -3955,7 +3955,7 @@
   },
   {
     "url": "https://medium.com/@thamizhelango/thanks-for-your-kind-words-431de880e397",
-    "title": "Thanks for your kind words \ud83d\ude4f",
+    "title": "Thanks for your kind words 🙏",
     "thumbnail": "assets/thanks-for-your-kind-words.webp",
     "tags": [
       "Technology"
@@ -4015,7 +4015,7 @@
   },
   {
     "url": "https://medium.com/@thamizhelango/php-apache-nginx-beyond-how-the-web-server-interpreter-dance-really-works-5fb413cb58d6",
-    "title": "\ud83d\udc18 PHP, Apache, Nginx &amp; Beyond: How the Web Server\u2013Interpreter Dance Really Works",
+    "title": "🐘 PHP, Apache, Nginx &amp; Beyond: How the Web Server–Interpreter Dance Really Works",
     "thumbnail": "assets/php-apache-nginx-beyond-how-the-web-server-interpreter-dance-really-works.webp",
     "tags": [
       "Web Development"
@@ -4032,7 +4032,7 @@
   },
   {
     "url": "https://medium.com/@thamizhelango/a-complete-guide-to-python-interpreters-history-use-cases-trade-offs-31975311d868",
-    "title": "\ud83d\udc0d A Complete Guide to Python Interpreters: History, Use Cases &amp; Trade-Offs",
+    "title": "🐍 A Complete Guide to Python Interpreters: History, Use Cases &amp; Trade-Offs",
     "thumbnail": "assets/a-complete-guide-to-python-interpreters-history-use-cases-trade-offs.webp",
     "tags": [
       "Python"
@@ -4151,7 +4151,7 @@
   },
   {
     "url": "https://medium.com/@thamizhelango/understanding-gpu-virtualization-how-gpus-are-exposed-to-vms-containers-and-kubernetes-pods-fa7746f62ee4",
-    "title": "\ud83d\udd0d Understanding GPU Virtualization: How GPUs Are Exposed to VMs, Containers, and Kubernetes Pods",
+    "title": "🔍 Understanding GPU Virtualization: How GPUs Are Exposed to VMs, Containers, and Kubernetes Pods",
     "thumbnail": "assets/understanding-gpu-virtualization-how-gpus-are-exposed-to-vms-containers-and-kubernetes-pods.webp",
     "tags": [
       "Kubernetes",
@@ -4168,7 +4168,7 @@
   },
   {
     "url": "https://medium.com/@thamizhelango/from-uefi-to-linuxboot-the-rise-of-open-extensible-firmware-08348dcd12d1",
-    "title": "\ud83e\udde0 From UEFI to LinuxBoot: The Rise of Open, Extensible Firmware",
+    "title": "🧠 From UEFI to LinuxBoot: The Rise of Open, Extensible Firmware",
     "thumbnail": "assets/from-uefi-to-linuxboot-the-rise-of-open-extensible-firmware.webp",
     "tags": [
       "Boot Process"
@@ -4176,7 +4176,7 @@
   },
   {
     "url": "https://medium.com/@thamizhelango/can-you-achieve-docker-like-performance-running-alpine-linux-in-a-hypervisor-314930cb513f",
-    "title": "\u26a1 Can You Achieve Docker-Like Performance Running Alpine Linux in a Hypervisor?",
+    "title": "⚡ Can You Achieve Docker-Like Performance Running Alpine Linux in a Hypervisor?",
     "thumbnail": "assets/can-you-achieve-docker-like-performance-running-alpine-linux-in-a-hypervisor.webp",
     "tags": [
       "Docker",
@@ -4187,7 +4187,7 @@
   },
   {
     "url": "https://medium.com/@thamizhelango/understanding-ept-and-npt-the-hidden-power-behind-fast-virtual-machines-309f9e27bef2",
-    "title": "\ud83e\udde0 Understanding EPT and NPT: The Hidden Power Behind Fast Virtual Machines",
+    "title": "🧠 Understanding EPT and NPT: The Hidden Power Behind Fast Virtual Machines",
     "thumbnail": "assets/understanding-ept-and-npt-the-hidden-power-behind-fast-virtual-machines.webp",
     "tags": [
       "Technology"
@@ -4203,7 +4203,7 @@
   },
   {
     "url": "https://medium.com/@thamizhelango/the-linux-revolution-from-a-students-hobby-to-global-domination-a571794ab33a",
-    "title": "The Linux Revolution: From a Student\u2019s Hobby to Global Domination",
+    "title": "The Linux Revolution: From a Student’s Hobby to Global Domination",
     "thumbnail": "assets/the-linux-revolution-from-a-students-hobby-to-global-domination.webp",
     "tags": [
       "Linux"
@@ -4211,7 +4211,7 @@
   },
   {
     "url": "https://medium.com/@thamizhelango/why-gpus-run-hotter-than-cpus-and-how-nvidias-dgx-spark-tames-the-heat-e01778cc6780",
-    "title": "Why GPUs Run Hotter Than CPUs\u200a\u2014\u200aAnd How NVIDIA\u2019s DGX Spark Tames the Heat",
+    "title": "Why GPUs Run Hotter Than CPUs — And How NVIDIA’s DGX Spark Tames the Heat",
     "thumbnail": "assets/why-gpus-run-hotter-than-cpus-and-how-nvidias-dgx-spark-tames-the-heat.webp",
     "tags": [
       "Big Data"
@@ -4219,7 +4219,7 @@
   },
   {
     "url": "https://medium.com/@thamizhelango/the-billion-dollar-decision-that-let-you-build-your-own-pc-how-microsoft-broke-computings-walled-d1d78cefdf9e",
-    "title": "The Billion-Dollar Decision That Let You Build Your Own PC: How Microsoft Broke Computing\u2019s Walled\u2026",
+    "title": "The Billion-Dollar Decision That Let You Build Your Own PC: How Microsoft Broke Computing’s Walled…",
     "thumbnail": "assets/the-billion-dollar-decision-that-let-you-build-your-own-pc-how-microsoft-broke-computings-walled.webp",
     "tags": [
       "Build Tools"
@@ -4244,7 +4244,7 @@
   },
   {
     "url": "https://medium.com/@thamizhelango/how-nestjs-handles-cpu-bound-workloads-worker-pools-queues-and-performance-compared-to-java-0c3f5d185050",
-    "title": "How NestJS Handles CPU-Bound Workloads: Worker Pools, Queues, and Performance Compared to Java\u2026",
+    "title": "How NestJS Handles CPU-Bound Workloads: Worker Pools, Queues, and Performance Compared to Java…",
     "thumbnail": "assets/how-nestjs-handles-cpu-bound-workloads-worker-pools-queues-and-performance-compared-to-java.webp",
     "tags": [
       "Java",
@@ -4261,7 +4261,7 @@
   },
   {
     "url": "https://medium.com/@thamizhelango/supercharge-your-kubernetes-development-workflow-with-tilt-a-complete-guide-with-angular-8efcb0e51352",
-    "title": "\ud83d\ude80 Supercharge Your Kubernetes Development Workflow with Tilt: A Complete Guide (with Angular +\u2026",
+    "title": "🚀 Supercharge Your Kubernetes Development Workflow with Tilt: A Complete Guide (with Angular +…",
     "thumbnail": "assets/supercharge-your-kubernetes-development-workflow-with-tilt-a-complete-guide-with-angular.webp",
     "tags": [
       "Kubernetes"
@@ -4277,7 +4277,7 @@
   },
   {
     "url": "https://medium.com/@thamizhelango/proxmox-ve-vs-xcp-ng-2025-why-proxmox-ve-wins-for-most-open-source-deployments-7f8160d7df10",
-    "title": "Proxmox VE vs XCP-ng (2025): Why Proxmox VE Wins for Most Open-Source Deployments \ud83e\udde0",
+    "title": "Proxmox VE vs XCP-ng (2025): Why Proxmox VE Wins for Most Open-Source Deployments 🧠",
     "thumbnail": "assets/proxmox-ve-vs-xcp-ng-2025-why-proxmox-ve-wins-for-most-open-source-deployments.webp",
     "tags": [
       "Virtualization"
@@ -4285,7 +4285,7 @@
   },
   {
     "url": "https://medium.com/@thamizhelango/kimi-k2-the-deepseek-killer-full-guide-deployment-and-cursor-integration-7350a978d40c",
-    "title": "\ud83e\udde0 Kimi K2\u200a\u2014\u200aThe DeepSeek Killer: Full Guide, Deployment, and Cursor Integration",
+    "title": "🧠 Kimi K2 — The DeepSeek Killer: Full Guide, Deployment, and Cursor Integration",
     "thumbnail": "assets/kimi-k2-the-deepseek-killer-full-guide-deployment-and-cursor-integration.webp",
     "tags": [
       "Integration",
@@ -4294,7 +4294,7 @@
   },
   {
     "url": "https://medium.com/@thamizhelango/beyond-data-at-rest-and-data-in-motion-securing-data-in-use-with-confidential-computing-b4cb42eef304",
-    "title": "\ud83d\udd10 Beyond Data at Rest and Data in Motion: Securing Data in Use with Confidential Computing",
+    "title": "🔐 Beyond Data at Rest and Data in Motion: Securing Data in Use with Confidential Computing",
     "thumbnail": "assets/beyond-data-at-rest-and-data-in-motion-securing-data-in-use-with-confidential-computing.webp",
     "tags": [
       "Web Development"
@@ -4302,7 +4302,7 @@
   },
   {
     "url": "https://medium.com/@thamizhelango/confidential-kubernetes-implementing-confidential-computing-in-kubernetes-6b5c6c711601",
-    "title": "\ud83d\udd10 Confidential Kubernetes\u200a\u2014\u200aImplementing Confidential Computing in Kubernetes",
+    "title": "🔐 Confidential Kubernetes — Implementing Confidential Computing in Kubernetes",
     "thumbnail": "assets/confidential-kubernetes-implementing-confidential-computing-in-kubernetes.webp",
     "tags": [
       "Kubernetes"
@@ -4310,7 +4310,7 @@
   },
   {
     "url": "https://medium.com/@thamizhelango/deepseek-kimi-how-they-mastered-llms-and-gpu-computing-without-access-to-gpt-4-claude-or-3df6b3d3e2f4",
-    "title": "\ud83e\udde0 DeepSeek &amp; Kimi: How They Mastered LLMs and GPU Computing Without Access to GPT-4, Claude, or\u2026",
+    "title": "🧠 DeepSeek &amp; Kimi: How They Mastered LLMs and GPU Computing Without Access to GPT-4, Claude, or…",
     "thumbnail": "assets/deepseek-kimi-how-they-mastered-llms-and-gpu-computing-without-access-to-gpt-4-claude-or.webp",
     "tags": [
       "MCP"
@@ -4328,7 +4328,7 @@
   },
   {
     "url": "https://medium.com/@thamizhelango/how-proxmox-pioneered-in-virtualization-without-inventing-a-new-hypervisor-225a12f7c042",
-    "title": "How Proxmox Pioneered in Virtualization\u200a\u2014\u200aWithout Inventing a New Hypervisor",
+    "title": "How Proxmox Pioneered in Virtualization — Without Inventing a New Hypervisor",
     "thumbnail": "assets/how-proxmox-pioneered-in-virtualization-without-inventing-a-new-hypervisor.webp",
     "tags": [
       "Virtualization"
@@ -4369,10 +4369,115 @@
   },
   {
     "url": "https://medium.com/@thamizhelango/how-native-code-runs-in-the-browser-a-deep-dive-into-syscall-emulation-shimming-and-os-1dc334a363d0",
-    "title": "How Native Code Runs in the Browser: A Deep Dive into Syscall Emulation, Shimming, and OS\u2026",
+    "title": "How Native Code Runs in the Browser: A Deep Dive into Syscall Emulation, Shimming, and OS…",
     "thumbnail": "assets/how-native-code-runs-in-the-browser-a-deep-dive-into-syscall-emulation-shimming-and-os.webp",
     "tags": [
       "Browser"
+    ]
+  },
+  {
+    "url": "https://medium.com/@thamizhelango/glm-4-6-vs-kimi-k2-vs-deepseek-v3-9850284281bf",
+    "title": "🤖 GLM-4.6 vs Kimi K2 vs DeepSeek V3",
+    "thumbnail": "assets/glm-4-6-vs-kimi-k2-vs-deepseek-v3.webp",
+    "tags": [
+      "Technology"
+    ]
+  },
+  {
+    "url": "https://medium.com/@thamizhelango/demystifying-nvidias-sm-warp-thread-execution-model-ac0ed5ffda70",
+    "title": "🧠 Demystifying NVIDIA’s SM–Warp–Thread Execution Model",
+    "thumbnail": "assets/demystifying-nvidias-sm-warp-thread-execution-model.webp",
+    "tags": [
+      "Concurrency"
+    ]
+  },
+  {
+    "url": "https://medium.com/@thamizhelango/please-provide-me-link-for-this-ide-are-you-talking-about-firebase-studio-a03a703e7c93",
+    "title": "Please provide me link for this IDE. Are you talking about firebase studio?",
+    "thumbnail": "assets/please-provide-me-link-for-this-ide-are-you-talking-about-firebase-studio.webp",
+    "tags": [
+      "Technology"
+    ]
+  },
+  {
+    "url": "https://medium.com/@thamizhelango/volcano-a-comprehensive-guide-to-kubernetes-batch-scheduling-866edb26da0d",
+    "title": "Volcano: A Comprehensive Guide to Kubernetes Batch Scheduling",
+    "thumbnail": "assets/volcano-a-comprehensive-guide-to-kubernetes-batch-scheduling.webp",
+    "tags": [
+      "Kubernetes"
+    ]
+  },
+  {
+    "url": "https://medium.com/@thamizhelango/risc-v-the-open-hardware-revolution-that-could-become-the-linux-of-cpus-e3f880934d86",
+    "title": "🌟 RISC-V: The Open Hardware Revolution That Could Become the Linux of CPUs",
+    "thumbnail": "assets/risc-v-the-open-hardware-revolution-that-could-become-the-linux-of-cpus.webp",
+    "tags": [
+      "Linux"
+    ]
+  },
+  {
+    "url": "https://medium.com/@thamizhelango/classic-ides-vs-ai-ides-the-complete-2025-guide-to-the-future-of-software-development-f84f6e09e641",
+    "title": "Classic IDEs vs AI IDEs: The Complete 2025 Guide to the Future of Software Development",
+    "thumbnail": "assets/classic-ides-vs-ai-ides-the-complete-2025-guide-to-the-future-of-software-development.webp",
+    "tags": [
+      "AI"
+    ]
+  },
+  {
+    "url": "https://medium.com/@thamizhelango/the-future-of-compute-why-wasi-and-the-webassembly-component-model-will-reshape-software-dcc1212689b1",
+    "title": "The Future of Compute: Why WASI and the WebAssembly Component Model Will Reshape Software…",
+    "thumbnail": "assets/the-future-of-compute-why-wasi-and-the-webassembly-component-model-will-reshape-software.webp",
+    "tags": [
+      "WebAssembly"
+    ]
+  },
+  {
+    "url": "https://medium.com/@thamizhelango/building-a-production-ready-ci-cd-pipeline-with-n8n-a-complete-guide-3bf98a481190",
+    "title": "Building a Production-Ready CI/CD Pipeline with N8N: A Complete Guide",
+    "thumbnail": "assets/building-a-production-ready-ci-cd-pipeline-with-n8n-a-complete-guide.webp",
+    "tags": [
+      "DevOps"
+    ]
+  },
+  {
+    "url": "https://medium.com/@thamizhelango/flashtensors-a-deep-dive-into-ultra-fast-model-loading-for-llm-inference-5f9ba0023e3b",
+    "title": "flashtensors: A Deep Dive into Ultra-Fast Model Loading for LLM Inference",
+    "thumbnail": "assets/flashtensors-a-deep-dive-into-ultra-fast-model-loading-for-llm-inference.webp",
+    "tags": [
+      "AI/ML"
+    ]
+  },
+  {
+    "url": "https://medium.com/@thamizhelango/from-clicks-to-context-why-the-ai-world-is-rebuilding-recommendation-systems-with-llms-a0d331a52e6f",
+    "title": "🚀 From Clicks to Context: Why the AI World Is Rebuilding Recommendation Systems with LLMs",
+    "thumbnail": "assets/from-clicks-to-context-why-the-ai-world-is-rebuilding-recommendation-systems-with-llms.webp",
+    "tags": [
+      "AI"
+    ]
+  },
+  {
+    "url": "https://medium.com/@thamizhelango/gtc-washington-dc-2025-jensen-huangs-blueprint-for-the-next-era-of-ai-3ece65d577f1",
+    "title": "🚀 GTC Washington DC 2025: Jensen Huang’s Blueprint for the Next Era of AI",
+    "thumbnail": "assets/gtc-washington-dc-2025-jensen-huangs-blueprint-for-the-next-era-of-ai.webp",
+    "tags": [
+      "AI"
+    ]
+  },
+  {
+    "url": "https://medium.com/@thamizhelango/the-future-of-authn-authz-in-multi-agent-ai-systems-3f3782449e13",
+    "title": "The Future of AuthN/AuthZ in Multi-Agent AI Systems",
+    "thumbnail": "assets/the-future-of-authn-authz-in-multi-agent-ai-systems.webp",
+    "tags": [
+      "AI",
+      "Security"
+    ]
+  },
+  {
+    "url": "https://medium.com/@thamizhelango/complete-guide-to-setting-up-karmada-for-kubernetes-multi-cluster-management-79bd9b919afe",
+    "title": "Complete Guide to Setting Up Karmada for Kubernetes Multi-Cluster Management",
+    "thumbnail": "assets/complete-guide-to-setting-up-karmada-for-kubernetes-multi-cluster-management.webp",
+    "tags": [
+      "Kubernetes"
     ]
   }
 ]
