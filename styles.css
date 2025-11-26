@@ -71,11 +71,18 @@ header {
 
 .header-content {
     display: flex;
-    justify-content: space-between;
-    align-items: center;
-    gap: 2rem;
+    flex-direction: column;
+    gap: 0.75rem;
     max-width: 1400px;
     margin: 0 auto;
+}
+
+.header-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    gap: 2rem;
 }
 
 .header-left {
@@ -91,8 +98,12 @@ header {
     gap: 1rem;
 }
 
-.mobile-menu-btn,
-.mobile-search-btn {
+.header-bottom {
+    display: none;
+    width: 100%;
+}
+
+.mobile-menu-btn {
     display: none;
     background: transparent;
     border: 1px solid rgba(0, 255, 255, 0.3);
@@ -103,10 +114,10 @@ header {
     transition: all 0.2s;
     align-items: center;
     justify-content: center;
+    flex-shrink: 0;
 }
 
-.mobile-menu-btn:hover,
-.mobile-search-btn:hover {
+.mobile-menu-btn:hover {
     background-color: rgba(0, 255, 255, 0.2);
     border-color: #00ffff;
     color: #00ffff;
@@ -147,6 +158,10 @@ header h1 {
     max-width: 600px;
     width: 100%;
     flex-shrink: 0;
+}
+
+.mobile-search {
+    display: none;
 }
 
 .search-input {
@@ -291,6 +306,8 @@ header h1 {
     padding: 0.75rem 1rem;
     border-top: 1px solid rgba(0, 255, 255, 0.3);
     box-shadow: 0 -2px 4px rgba(0, 0, 0, 0.3);
+    -webkit-transform: translateZ(0);
+    transform: translateZ(0);
 }
 
 .footer-content {
@@ -342,6 +359,8 @@ header h1 {
     gap: 0.5rem;
     flex-wrap: wrap;
     flex: 1;
+    position: relative;
+    z-index: 1;
 }
 
 .pagination-btn {
@@ -357,6 +376,14 @@ header h1 {
     transition: all 0.2s;
     min-width: 2.25rem;
     text-align: center;
+    -webkit-tap-highlight-color: rgba(0, 255, 255, 0.3);
+    touch-action: manipulation;
+    user-select: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    position: relative;
+    z-index: 1;
 }
 
 .pagination-btn:hover:not(:disabled) {
@@ -608,7 +635,11 @@ header h1 {
 
     /* Mobile header */
     .header-content {
-        flex-wrap: wrap;
+        gap: 0.5rem;
+    }
+
+    .header-top {
+        flex-wrap: nowrap;
         gap: 0.75rem;
     }
 
@@ -622,8 +653,11 @@ header h1 {
         min-width: 0;
     }
 
-    .mobile-menu-btn,
-    .mobile-search-btn {
+    .header-right {
+        display: none;
+    }
+
+    .mobile-menu-btn {
         display: flex;
         flex-shrink: 0;
     }
@@ -645,18 +679,17 @@ header h1 {
         margin-top: 0.25rem;
     }
     
-    /* Search container - hidden by default on mobile */
-    .search-container {
-        display: none;
+    /* Search container - always visible at bottom on mobile */
+    .header-bottom {
+        display: block;
+        width: 100%;
+    }
+    
+    .mobile-search {
+        display: block;
         width: 100%;
         max-width: 100%;
         min-width: auto;
-        order: 3;
-        margin-top: 0.5rem;
-    }
-
-    .search-container.active {
-        display: block;
     }
     
     .search-input {
@@ -709,6 +742,24 @@ header h1 {
         padding: 0.35rem 0.5rem;
         font-size: 0.8rem;
         min-width: 1.75rem;
+        -webkit-tap-highlight-color: rgba(0, 255, 255, 0.3);
+        touch-action: manipulation;
+        min-height: 36px;
+        position: relative;
+        z-index: 2;
+        -webkit-transform: translateZ(0);
+        transform: translateZ(0);
+    }
+    
+    .pagination-btn:active {
+        transform: scale(0.95);
+        -webkit-transform: scale(0.95) translateZ(0);
+    }
+    
+    .pagination-btn:disabled {
+        opacity: 0.5;
+        cursor: not-allowed;
+        pointer-events: none;
     }
 
     .pagination-info {

@@ -133,10 +133,29 @@ function toggleTagFilter(tag) {
 // Setup event listeners
 function setupEventListeners() {
     const searchInput = document.getElementById('searchInput');
+    const searchInputMobile = document.getElementById('searchInputMobile');
     const clearFiltersBtn = document.getElementById('clearFilters');
     const mobileClearFiltersBtn = document.getElementById('mobileClearFilters');
     
-    searchInput.addEventListener('input', debounce(applyFilters, 300));
+    // Sync both search inputs
+    const handleSearch = debounce(applyFilters, 300);
+    
+    if (searchInput) {
+        searchInput.addEventListener('input', handleSearch);
+    }
+    if (searchInputMobile) {
+        searchInputMobile.addEventListener('input', handleSearch);
+        // Sync mobile input with desktop input
+        searchInputMobile.addEventListener('input', (e) => {
+            if (searchInput) searchInput.value = e.target.value;
+        });
+    }
+    if (searchInput) {
+        searchInput.addEventListener('input', (e) => {
+            if (searchInputMobile) searchInputMobile.value = e.target.value;
+        });
+    }
+    
     if (clearFiltersBtn) {
         clearFiltersBtn.addEventListener('click', clearAllFilters);
     }
@@ -164,7 +183,9 @@ function debounce(func, wait) {
 
 // Apply search and tag filters
 function applyFilters() {
-    const searchQuery = document.getElementById('searchInput').value.toLowerCase().trim();
+    const searchInput = document.getElementById('searchInput');
+    const searchInputMobile = document.getElementById('searchInputMobile');
+    const searchQuery = (searchInput?.value || searchInputMobile?.value || '').toLowerCase().trim();
     
     filteredBlogs = allBlogs.filter(blog => {
         // Search filter
@@ -192,9 +213,15 @@ function applyFilters() {
 // Clear all filters
 function clearAllFilters() {
     const searchInput = document.getElementById('searchInput');
+    const searchInputMobile = document.getElementById('searchInputMobile');
+    
     if (searchInput) {
         searchInput.value = '';
     }
+    if (searchInputMobile) {
+        searchInputMobile.value = '';
+    }
+    
     activeTags.clear();
     
     // Remove active class from all tag buttons (both desktop and mobile)
@@ -240,6 +267,15 @@ function renderBlogs(blogs) {
     const startIndex = (currentPage - 1) * blogsPerPage;
     const endIndex = startIndex + blogsPerPage;
     const blogsToShow = blogs.slice(startIndex, endIndex);
+    
+    console.log('renderBlogs:', { 
+        totalBlogs: blogs.length, 
+        currentPage, 
+        totalPages, 
+        startIndex, 
+        endIndex, 
+        blogsToShowCount: blogsToShow.length 
+    });
     
     blogGrid.innerHTML = blogsToShow.map(blog => createBlogCard(blog)).join('');
 }
@@ -302,14 +338,24 @@ function renderPagination() {
     
     pagination.style.display = 'flex';
     
-    let paginationHTML = '';
+    // Clear existing content
+    paginationControls.innerHTML = '';
     
     // Previous button
-    paginationHTML += `
-        <button class="pagination-btn prev" ${currentPage === 1 ? 'disabled' : ''} onclick="goToPage(${currentPage - 1})">
-            Previous
-        </button>
-    `;
+    const prevBtn = document.createElement('button');
+    prevBtn.className = 'pagination-btn prev';
+    prevBtn.textContent = 'Previous';
+    const prevPage = currentPage - 1;
+    prevBtn.disabled = currentPage === 1;
+    prevBtn.addEventListener('click', (e) => {
+        e.preventDefault();
+        e.stopPropagation();
+        console.log('Previous button clicked, going to page:', prevPage);
+        if (prevPage >= 1) {
+            goToPage(prevPage);
+        }
+    }, { passive: false });
+    paginationControls.appendChild(prevBtn);
     
     // Page numbers
     const maxVisiblePages = 7;
@@ -323,61 +369,124 @@ function renderPagination() {
     
     // First page and ellipsis
     if (startPage > 1) {
-        paginationHTML += `<button class="pagination-btn" onclick="goToPage(1)">1</button>`;
+        const firstBtn = document.createElement('button');
+        firstBtn.className = 'pagination-btn';
+        firstBtn.textContent = '1';
+        firstBtn.addEventListener('click', (e) => {
+            e.preventDefault();
+            e.stopPropagation();
+            console.log('Page 1 button clicked');
+            goToPage(1);
+        }, { passive: false });
+        paginationControls.appendChild(firstBtn);
+        
         if (startPage > 2) {
-            paginationHTML += `<span class="pagination-info">...</span>`;
+            const ellipsis = document.createElement('span');
+            ellipsis.className = 'pagination-info';
+            ellipsis.textContent = '...';
+            paginationControls.appendChild(ellipsis);
         }
     }
     
     // Page number buttons
     for (let i = startPage; i <= endPage; i++) {
-        paginationHTML += `
-            <button class="pagination-btn ${i === currentPage ? 'active' : ''}" onclick="goToPage(${i})">
-                ${i}
-            </button>
-        `;
+        const pageBtn = document.createElement('button');
+        pageBtn.className = `pagination-btn ${i === currentPage ? 'active' : ''}`;
+        pageBtn.textContent = i.toString();
+        const pageNum = i; // Capture the page number
+        pageBtn.addEventListener('click', (e) => {
+            e.preventDefault();
+            e.stopPropagation();
+            console.log('Page button clicked:', pageNum);
+            goToPage(pageNum);
+        }, { passive: false });
+        paginationControls.appendChild(pageBtn);
     }
     
     // Last page and ellipsis
     if (endPage < totalPages) {
         if (endPage < totalPages - 1) {
-            paginationHTML += `<span class="pagination-info">...</span>`;
+            const ellipsis = document.createElement('span');
+            ellipsis.className = 'pagination-info';
+            ellipsis.textContent = '...';
+            paginationControls.appendChild(ellipsis);
         }
-        paginationHTML += `<button class="pagination-btn" onclick="goToPage(${totalPages})">${totalPages}</button>`;
+        const lastBtn = document.createElement('button');
+        lastBtn.className = 'pagination-btn';
+        lastBtn.textContent = totalPages.toString();
+        const lastPageNum = totalPages;
+        lastBtn.addEventListener('click', (e) => {
+            e.preventDefault();
+            e.stopPropagation();
+            console.log('Last page button clicked:', lastPageNum);
+            goToPage(lastPageNum);
+        }, { passive: false });
+        paginationControls.appendChild(lastBtn);
     }
     
     // Next button
-    paginationHTML += `
-        <button class="pagination-btn next" ${currentPage === totalPages ? 'disabled' : ''} onclick="goToPage(${currentPage + 1})">
-            Next
-        </button>
-    `;
-    
-    paginationControls.innerHTML = paginationHTML;
+    const nextBtn = document.createElement('button');
+    nextBtn.className = 'pagination-btn next';
+    nextBtn.textContent = 'Next';
+    const nextPage = currentPage + 1;
+    nextBtn.disabled = currentPage === totalPages;
+    nextBtn.addEventListener('click', (e) => {
+        e.preventDefault();
+        e.stopPropagation();
+        console.log('Next button clicked, going to page:', nextPage);
+        if (nextPage <= totalPages) {
+            goToPage(nextPage);
+        }
+    }, { passive: false });
+    paginationControls.appendChild(nextBtn);
 }
 
 // Go to specific page
-window.goToPage = function(page) {
+function goToPage(page) {
     const totalPages = Math.ceil(filteredBlogs.length / blogsPerPage);
-    if (page < 1 || page > totalPages) return;
+    console.log('goToPage called:', { page, totalPages, currentPage, filteredBlogsLength: filteredBlogs.length });
+    
+    if (page < 1 || page > totalPages) {
+        console.warn('Invalid page:', page);
+        return;
+    }
     
     currentPage = page;
+    console.log('Updated currentPage to:', currentPage);
+    
+    // Render blogs first
     renderBlogs(filteredBlogs);
+    
+    // Then update count and pagination
     updateResultsCount(filteredBlogs.length);
     renderPagination();
     
-    // Scroll to top of blog grid
-    document.getElementById('blogGrid').scrollIntoView({ behavior: 'smooth', block: 'start' });
-};
+    // Force a reflow to ensure content is updated
+    const blogGrid = document.getElementById('blogGrid');
+    if (blogGrid) {
+        blogGrid.offsetHeight; // Force reflow
+    }
+    
+    // Scroll to top of blog grid on mobile (after a small delay to ensure content is rendered)
+    if (window.innerWidth <= 768) {
+        setTimeout(() => {
+            const blogGrid = document.getElementById('blogGrid');
+            if (blogGrid) {
+                blogGrid.scrollIntoView({ behavior: 'smooth', block: 'start' });
+            }
+        }, 100);
+    }
+}
+
+// Make it available globally for debugging
+window.goToPage = goToPage;
 
 // Mobile menu functionality
 function setupMobileMenu() {
     const mobileMenuBtn = document.getElementById('mobileMenuBtn');
-    const mobileSearchBtn = document.getElementById('mobileSearchBtn');
     const mobileTagsDrawer = document.getElementById('mobileTagsDrawer');
     const mobileOverlay = document.getElementById('mobileOverlay');
     const closeTagsDrawer = document.getElementById('closeTagsDrawer');
-    const searchContainer = document.querySelector('.search-container');
     
     // Toggle tags drawer
     if (mobileMenuBtn) {
@@ -401,19 +510,6 @@ function setupMobileMenu() {
     
     if (mobileOverlay) {
         mobileOverlay.addEventListener('click', closeDrawer);
-    }
-    
-    // Toggle search on mobile
-    if (mobileSearchBtn) {
-        mobileSearchBtn.addEventListener('click', () => {
-            searchContainer?.classList.toggle('active');
-            if (searchContainer?.classList.contains('active')) {
-                // Focus search input when opened
-                setTimeout(() => {
-                    document.getElementById('searchInput')?.focus();
-                }, 100);
-            }
-        });
     }
     
     // Close drawer on escape key
