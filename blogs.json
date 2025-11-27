@@ -4412,5 +4412,13 @@
     "tags": [
       "Containerization & Orchestration"
     ]
+  },
+  {
+    "url": "https://thamizhelango.medium.com/will-googles-asic-chips-overtake-nvidia-a-deep-dive-into-tpus-gpus-and-the-future-of-ai-compute-27c9a5e96358",
+    "title": "Will Google’s ASIC Chips Overtake NVIDIA? A Deep Dive Into TPUs, GPUs, and the Future of AI Compute",
+    "thumbnail": "assets/will-googles-asic-chips-overtake-nvidia-a-deep-dive-into-tpus-gpus-and-the-future-of-ai-compute.webp",
+    "tags": [
+      "AI/ML"
+    ]
   }
 ]
