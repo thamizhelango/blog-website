@@ -5,9 +5,88 @@ let activeTags = new Set();
 let currentPage = 1;
 const blogsPerPage = 9;
 
+// URL state management functions
+function getURLParams() {
+    const params = new URLSearchParams(window.location.search);
+    const pageParam = params.get('page');
+    const page = pageParam ? parseInt(pageParam, 10) : 1;
+    return {
+        page: (page && !isNaN(page) && page > 0) ? page : 1,
+        tags: params.get('tags') ? params.get('tags').split(',').filter(t => t) : [],
+        search: params.get('search') || ''
+    };
+}
+
+function updateURL() {
+    const params = new URLSearchParams();
+    
+    // Always include page parameter for easier debugging and state management
+    params.set('page', currentPage.toString());
+    
+    if (activeTags.size > 0) {
+        params.set('tags', Array.from(activeTags).join(','));
+    }
+    
+    const searchInput = document.getElementById('searchInput');
+    const searchInputMobile = document.getElementById('searchInputMobile');
+    const searchQuery = (searchInput?.value || searchInputMobile?.value || '').trim();
+    if (searchQuery) {
+        params.set('search', searchQuery);
+    }
+    
+    const pathname = window.location.pathname.endsWith('/') && window.location.pathname !== '/' 
+        ? window.location.pathname.slice(0, -1) 
+        : window.location.pathname;
+    const newURL = `${pathname}?${params.toString()}`;
+    const currentURL = window.location.pathname + window.location.search;
+    
+    console.log('updateURL called:', { 
+        currentPage, 
+        newURL, 
+        currentURL, 
+        willUpdate: newURL !== currentURL 
+    });
+    
+    // Always update URL to ensure it's in sync
+    try {
+        window.history.replaceState({ page: currentPage }, '', newURL);
+        console.log('URL updated successfully to:', window.location.href);
+    } catch (error) {
+        console.error('Error updating URL:', error);
+    }
+}
+
+function restoreStateFromURL() {
+    const urlParams = getURLParams();
+    
+    console.log('Restoring state from URL:', urlParams);
+    
+    // Restore page
+    currentPage = urlParams.page;
+    console.log('Restored currentPage to:', currentPage);
+    
+    // Restore search query
+    const searchInput = document.getElementById('searchInput');
+    const searchInputMobile = document.getElementById('searchInputMobile');
+    if (urlParams.search) {
+        if (searchInput) searchInput.value = urlParams.search;
+        if (searchInputMobile) searchInputMobile.value = urlParams.search;
+        console.log('Restored search query:', urlParams.search);
+    }
+    
+    // Restore active tags
+    if (urlParams.tags.length > 0) {
+        activeTags = new Set(urlParams.tags);
+        console.log('Restored active tags:', Array.from(activeTags));
+    }
+}
+
 // Initialize the application
 document.addEventListener('DOMContentLoaded', async () => {
     try {
+        // Restore state from URL first
+        restoreStateFromURL();
+        
         // Load blogs data with cache-busting to ensure fresh data
         const cacheBuster = `?v=${Date.now()}`;
         const response = await fetch(`blogs.json${cacheBuster}`, {
@@ -29,9 +108,41 @@ document.addEventListener('DOMContentLoaded', async () => {
         // Initialize tags first
         initializeTags();
         
-        // Then apply filters and setup event listeners
-        applyFilters();
+        // Restore active tag buttons after tags are initialized
+        if (activeTags.size > 0) {
+            activeTags.forEach(tag => {
+                const tagButtons = document.querySelectorAll(`[data-tag="${tag}"]`);
+                tagButtons.forEach(btn => btn.classList.add('active'));
+            });
+        }
+        
+        // Then apply filters without resetting page (to preserve restored page from URL)
+        applyFilters(false);
         setupEventListeners();
+        
+        // Handle browser back/forward buttons
+        window.addEventListener('popstate', () => {
+            console.log('popstate event - restoring from URL');
+            restoreStateFromURL();
+            // Restore active tag buttons
+            if (activeTags.size > 0) {
+                document.querySelectorAll('.tag-filter').forEach(btn => {
+                    const tag = btn.dataset.tag;
+                    if (activeTags.has(tag)) {
+                        btn.classList.add('active');
+                    } else {
+                        btn.classList.remove('active');
+                    }
+                });
+            }
+            applyFilters(false);
+        });
+        
+        // Update URL after initial load to ensure it matches current state
+        // This ensures the URL is always in sync with the page state
+        updateURL();
+        
+        console.log('Initialization complete. Current page:', currentPage, 'URL:', window.location.href);
     } catch (error) {
         console.error('Error loading blogs:', error);
         document.getElementById('blogGrid').innerHTML = 
@@ -127,7 +238,7 @@ function toggleTagFilter(tag) {
         tagButtons.forEach(btn => btn.classList.add('active'));
     }
     
-    applyFilters();
+    applyFilters(true); // Reset to page 1 when filters change
 }
 
 // Setup event listeners
@@ -138,21 +249,22 @@ function setupEventListeners() {
     const mobileClearFiltersBtn = document.getElementById('mobileClearFilters');
     
     // Sync both search inputs
-    const handleSearch = debounce(applyFilters, 300);
+    const handleSearch = debounce(() => {
+        applyFilters(true); // Reset to page 1 when search changes
+    }, 300);
     
     if (searchInput) {
         searchInput.addEventListener('input', handleSearch);
+        // Sync desktop input with mobile input
+        searchInput.addEventListener('input', (e) => {
+            if (searchInputMobile) searchInputMobile.value = e.target.value;
+        });
     }
     if (searchInputMobile) {
         searchInputMobile.addEventListener('input', handleSearch);
         // Sync mobile input with desktop input
         searchInputMobile.addEventListener('input', (e) => {
             if (searchInput) searchInput.value = e.target.value;
-        });
-    }
-    if (searchInput) {
-        searchInput.addEventListener('input', (e) => {
-            if (searchInputMobile) searchInputMobile.value = e.target.value;
         });
     }
     
@@ -182,7 +294,7 @@ function debounce(func, wait) {
 }
 
 // Apply search and tag filters
-function applyFilters() {
+function applyFilters(resetPage = true) {
     const searchInput = document.getElementById('searchInput');
     const searchInputMobile = document.getElementById('searchInputMobile');
     const searchQuery = (searchInput?.value || searchInputMobile?.value || '').toLowerCase().trim();
@@ -203,11 +315,28 @@ function applyFilters() {
     // Reverse order to show newest first
     filteredBlogs.reverse();
     
-    // Reset to first page when filters change
-    currentPage = 1;
+    // Reset to first page when filters change (unless explicitly told not to)
+    if (resetPage) {
+        currentPage = 1;
+        console.log('applyFilters: Reset page to 1');
+    } else {
+        // Ensure current page is valid after filtering
+        const totalPages = Math.ceil(filteredBlogs.length / blogsPerPage);
+        console.log('applyFilters: Preserving page', currentPage, 'totalPages:', totalPages);
+        if (currentPage > totalPages && totalPages > 0) {
+            currentPage = totalPages;
+            console.log('applyFilters: Adjusted page to', currentPage);
+        } else if (currentPage < 1) {
+            currentPage = 1;
+            console.log('applyFilters: Adjusted page to 1');
+        }
+    }
+    
+    console.log('applyFilters: Rendering with currentPage:', currentPage);
     renderBlogs(filteredBlogs);
     updateResultsCount(filteredBlogs.length);
     renderPagination();
+    updateURL();
 }
 
 // Clear all filters
@@ -243,7 +372,7 @@ function clearAllFilters() {
         initializeTags();
     }
     
-    applyFilters();
+    applyFilters(true); // Reset to page 1 when clearing filters
 }
 
 // Render blog cards
@@ -453,6 +582,9 @@ function goToPage(page) {
     
     currentPage = page;
     console.log('Updated currentPage to:', currentPage);
+    
+    // Update URL immediately before rendering to ensure it's in sync
+    updateURL();
     
     // Render blogs first
     renderBlogs(filteredBlogs);
