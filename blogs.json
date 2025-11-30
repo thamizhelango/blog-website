@@ -146,7 +146,8 @@
     "title": "Implementing XGBoost with NVIDIA RTX 3090 and FastAI: A Comprehensive Guide",
     "thumbnail": "assets/implementing-xgboost-with-nvidia-rtx-3090-and-fastai-a-comprehensive-guide.webp",
     "tags": [
-      "AI/ML"
+      "AI/ML",
+      "GPU"
     ]
   },
   {
@@ -165,7 +166,8 @@
     "thumbnail": "assets/supercharge-your-ml-models-unleashing-gpu-power-with-serverless-google-cloud-run.webp",
     "tags": [
       "AI/ML",
-      "Cloud & Infrastructure"
+      "Cloud & Infrastructure",
+      "GPU"
     ]
   },
   {
@@ -197,6 +199,7 @@
     "title": "Unleashing the Power of Java for GPGPU Programming on NVIDIA RTX 3090",
     "thumbnail": "assets/unleashing-the-power-of-java-for-gpgpu-programming-on-nvidia-rtx-3090.webp",
     "tags": [
+      "GPU",
       "Programming Languages"
     ]
   },
@@ -610,7 +613,8 @@
     "thumbnail": "assets/accelerating-big-data-analytics-with-rapids-and-apache-spark-leveraging-dual-nvidia-rtx-3090-gpus.webp",
     "tags": [
       "AI/ML",
-      "Data Engineering"
+      "Data Engineering",
+      "GPU"
     ]
   },
   {
@@ -735,6 +739,7 @@
     "title": "Building a Production-Ready Kubeflow MLOps Platform with NVIDIA RTX GPUs",
     "thumbnail": "assets/building-a-production-ready-kubeflow-mlops-platform-with-nvidia-rtx-gpus.webp",
     "tags": [
+      "GPU",
       "MLOps"
     ]
   },
@@ -1067,6 +1072,7 @@
     "tags": [
       "AI/ML",
       "Agentic AI",
+      "GPU",
       "LLM"
     ]
   },
@@ -1075,6 +1081,7 @@
     "title": "Maximizing Inference Speed with Dual RTX 3090 GPUs: DeepSeek Model Optimization",
     "thumbnail": "assets/maximizing-inference-speed-with-dual-rtx-3090-gpus-deepseek-model-optimization.webp",
     "tags": [
+      "GPU",
       "LLM",
       "System Administration"
     ]
@@ -1127,6 +1134,7 @@
     "title": "Setting up vLLM with Dual NVIDIA RTX 3090 GPUs: A Complete Guide",
     "thumbnail": "assets/setting-up-vllm-with-dual-nvidia-rtx-3090-gpus-a-complete-guide.webp",
     "tags": [
+      "GPU",
       "LLM"
     ]
   },
@@ -1214,6 +1222,7 @@
     "title": "Real-Time Fraud Detection using GPU-Accelerated Decision Trees with Dual RTX 3090s: A Complete…",
     "thumbnail": "assets/real-time-fraud-detection-using-gpu-accelerated-decision-trees-with-dual-rtx-3090s-a-complete.webp",
     "tags": [
+      "GPU",
       "Web Development"
     ]
   },
@@ -1252,6 +1261,7 @@
       "AI/ML",
       "Agentic AI",
       "Build Tools & Compilers",
+      "GPU",
       "LLM"
     ]
   },
@@ -1363,6 +1373,7 @@
     "title": "Linux GPU Drivers: Navigating the Graphics Landscape",
     "thumbnail": "assets/linux-gpu-drivers-navigating-the-graphics-landscape.webp",
     "tags": [
+      "GPU",
       "System Administration"
     ]
   },
@@ -1408,6 +1419,7 @@
     "title": "Python and NVIDIA: Hardware Interaction and Native Support",
     "thumbnail": "assets/python-and-nvidia-hardware-interaction-and-native-support.webp",
     "tags": [
+      "GPU",
       "Programming Languages"
     ]
   },
@@ -1569,6 +1581,7 @@
     "thumbnail": "assets/should-you-switch-from-scikit-learn-to-pytorch-for-gpu-accelerated-machine-learning.webp",
     "tags": [
       "AI/ML",
+      "GPU",
       "Programming Languages"
     ]
   },
@@ -1605,7 +1618,8 @@
     "title": "Building a Vision AI System with Dual NVIDIA RTX 3090 GPUs: End-to-End Setup Guide",
     "thumbnail": "assets/building-a-vision-ai-system-with-dual-nvidia-rtx-3090-gpus-end-to-end-setup-guide.webp",
     "tags": [
-      "AI/ML"
+      "AI/ML",
+      "GPU"
     ]
   },
   {
@@ -1646,6 +1660,7 @@
     "title": "Scaling K-Nearest Neighbors with Dual NVIDIA RTX 3090 GPUs: A Complete Guide",
     "thumbnail": "assets/scaling-k-nearest-neighbors-with-dual-nvidia-rtx-3090-gpus-a-complete-guide.webp",
     "tags": [
+      "GPU",
       "System Administration"
     ]
   },
@@ -1890,7 +1905,8 @@
     "title": "CUDA Compilation: How the Same Code Runs on Different GPUs",
     "thumbnail": "assets/cuda-compilation-how-the-same-code-runs-on-different-gpus.webp",
     "tags": [
-      "AI/ML"
+      "AI/ML",
+      "GPU"
     ]
   },
   {
@@ -1923,7 +1939,8 @@
     "title": "Understanding NVIDIA’s GPU Computing Ecosystem: A Complete Guide with Code Examples",
     "thumbnail": "assets/understanding-nvidias-gpu-computing-ecosystem-a-complete-guide-with-code-examples.webp",
     "tags": [
-      "AI/ML"
+      "AI/ML",
+      "GPU"
     ]
   },
   {
@@ -1965,7 +1982,8 @@
     "title": "Mastering Stochastic Gradient Descent with Dual NVIDIA RTX 3090 GPUs: Large-Scale Deep Learning…",
     "thumbnail": "assets/mastering-stochastic-gradient-descent-with-dual-nvidia-rtx-3090-gpus-large-scale-deep-learning.webp",
     "tags": [
-      "AI/ML"
+      "AI/ML",
+      "GPU"
     ]
   },
   {
@@ -1997,6 +2015,7 @@
     "title": "Mastering PCA with Dual NVIDIA RTX 3090 GPUs: A Complete Guide",
     "thumbnail": "assets/mastering-pca-with-dual-nvidia-rtx-3090-gpus-a-complete-guide.webp",
     "tags": [
+      "GPU",
       "System Administration"
     ]
   },
@@ -2104,6 +2123,7 @@
     "thumbnail": "assets/breaking-barriers-gpu-accelerated-llm-inference-comes-to-pure-java.webp",
     "tags": [
       "AI/ML",
+      "GPU",
       "LLM",
       "Programming Languages"
     ]
@@ -2494,7 +2514,8 @@
     "title": "How Keras Enables Powerful NLP on Mac M4 Without a Physical GPU",
     "thumbnail": "assets/how-keras-enables-powerful-nlp-on-mac-m4-without-a-physical-gpu.webp",
     "tags": [
-      "AI/ML"
+      "AI/ML",
+      "GPU"
     ]
   },
   {
@@ -3023,7 +3044,8 @@
     "title": "Quantum Computing with CUDA-Q on Dual NVIDIA RTX 3090 GPUs: A Complete Guide",
     "thumbnail": "assets/quantum-computing-with-cuda-q-on-dual-nvidia-rtx-3090-gpus-a-complete-guide.webp",
     "tags": [
-      "AI/ML"
+      "AI/ML",
+      "GPU"
     ]
   },
   {
@@ -3268,7 +3290,8 @@
     "title": "Complete Guide: Enabling Nvidia GPU in Harvester HCI",
     "thumbnail": "assets/complete-guide-enabling-nvidia-gpu-in-harvester-hci.webp",
     "tags": [
-      "AI/ML"
+      "AI/ML",
+      "GPU"
     ]
   },
   {
@@ -3407,6 +3430,7 @@
     "title": "Understanding Vulkan: The Modern Graphics API Revolution",
     "thumbnail": "assets/understanding-vulkan-the-modern-graphics-api-revolution.webp",
     "tags": [
+      "GPU",
       "Web Development"
     ]
   },
@@ -3645,7 +3669,8 @@
     "title": "Why ROCm Continues to Trail CUDA: A Comprehensive Technical Analysis",
     "thumbnail": "assets/why-rocm-continues-to-trail-cuda-a-comprehensive-technical-analysis.webp",
     "tags": [
-      "AI/ML"
+      "AI/ML",
+      "GPU"
     ]
   },
   {
@@ -3808,6 +3833,7 @@
     "title": "🎮 NVIDIA RTX 3090 GPU Virtualization in QEMU: Performance Showdown",
     "thumbnail": "assets/nvidia-rtx-3090-gpu-virtualization-in-qemu-performance-showdown.webp",
     "tags": [
+      "GPU",
       "System Administration",
       "Virtualization"
     ]
@@ -4098,6 +4124,7 @@
     "thumbnail": "assets/understanding-gpu-virtualization-how-gpus-are-exposed-to-vms-containers-and-kubernetes-pods.webp",
     "tags": [
       "Containerization & Orchestration",
+      "GPU",
       "Virtualization"
     ]
   },
@@ -4157,7 +4184,8 @@
     "title": "Why GPUs Run Hotter Than CPUs — And How NVIDIA’s DGX Spark Tames the Heat",
     "thumbnail": "assets/why-gpus-run-hotter-than-cpus-and-how-nvidias-dgx-spark-tames-the-heat.webp",
     "tags": [
-      "Data Engineering"
+      "Data Engineering",
+      "GPU"
     ]
   },
   {
@@ -4182,6 +4210,7 @@
     "title": "Building GPU-Accelerated WebAssembly Apps Using an RTX 3090",
     "thumbnail": "assets/building-gpu-accelerated-webassembly-apps-using-an-rtx-3090.webp",
     "tags": [
+      "GPU",
       "Web Development"
     ]
   },
@@ -4259,6 +4288,7 @@
     "thumbnail": "assets/deepseek-kimi-how-they-mastered-llms-and-gpu-computing-without-access-to-gpt-4-claude-or.webp",
     "tags": [
       "AI/ML",
+      "GPU",
       "LLM"
     ]
   },
@@ -4286,7 +4316,8 @@
     "thumbnail": "assets/the-new-economics-of-gpu-infrastructure-how-investors-are-capturing-value-in-the-agentic-ai-era.webp",
     "tags": [
       "AI/ML",
-      "Agentic AI"
+      "Agentic AI",
+      "GPU"
     ]
   },
   {
@@ -4303,7 +4334,8 @@
     "title": "ZeroGPU on Hugging Face: Run Open Models for (Almost) Free",
     "thumbnail": "assets/zerogpu-on-hugging-face-run-open-models-for-almost-free.webp",
     "tags": [
-      "AI/ML"
+      "AI/ML",
+      "GPU"
     ]
   },
   {
@@ -4327,6 +4359,7 @@
     "title": "🧠 Demystifying NVIDIA’s SM–Warp–Thread Execution Model",
     "thumbnail": "assets/demystifying-nvidias-sm-warp-thread-execution-model.webp",
     "tags": [
+      "GPU",
       "Programming Languages"
     ]
   },
@@ -4376,6 +4409,7 @@
     "thumbnail": "assets/flashtensors-a-deep-dive-into-ultra-fast-model-loading-for-llm-inference.webp",
     "tags": [
       "AI/ML",
+      "GPU",
       "LLM"
     ]
   },
@@ -4410,7 +4444,8 @@
     "title": "Complete Guide to Setting Up Karmada for Kubernetes Multi-Cluster Management",
     "thumbnail": "assets/complete-guide-to-setting-up-karmada-for-kubernetes-multi-cluster-management.webp",
     "tags": [
-      "Containerization & Orchestration"
+      "Containerization & Orchestration",
+      "GPU"
     ]
   },
   {
@@ -4418,7 +4453,8 @@
     "title": "Will Google’s ASIC Chips Overtake NVIDIA? A Deep Dive Into TPUs, GPUs, and the Future of AI Compute",
     "thumbnail": "assets/will-googles-asic-chips-overtake-nvidia-a-deep-dive-into-tpus-gpus-and-the-future-of-ai-compute.webp",
     "tags": [
-      "AI/ML"
+      "AI/ML",
+      "GPU"
     ]
   },
   {
