@@ -4428,5 +4428,23 @@
     "tags": [
       "AI/ML"
     ]
+  },
+  {
+    "url": "https://thamizhelango.medium.com/the-complete-deepseek-model-guide-choosing-the-right-ai-for-your-needs-2dd3dca79341",
+    "title": "The Complete DeepSeek Model Guide: Choosing the Right AI for Your Needs",
+    "thumbnail": "assets/the-complete-deepseek-model-guide-choosing-the-right-ai-for-your-needs.webp",
+    "tags": [
+      "AI/ML",
+      "LLM"
+    ]
+  },
+  {
+    "url": "https://thamizhelango.medium.com/the-real-reason-vram-exploded-how-nvidia-ai-and-architecture-shaped-todays-gpu-landscape-b05b80ebdadc",
+    "title": "The Real Reason VRAM Exploded: How NVIDIA AI and Architecture Shaped Today’s GPU Landscape",
+    "thumbnail": "assets/the-real-reason-vram-exploded-how-nvidia-ai-and-architecture-shaped-todays-gpu-landscape.webp",
+    "tags": [
+      "AI/ML",
+      "GPU"
+    ]
   }
 ]
