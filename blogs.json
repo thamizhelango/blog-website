@@ -4488,7 +4488,15 @@
     "title": "Autonomous AI Testing Agents: The Future of Web & Mobile Test Automation",
     "thumbnail": "assets/autonomous-ai-testing-agents-the-future-of-web-mobile-test-automation.webp",
     "tags": [
-      "AI/ML"
+      "AI/ML", "LLM"
+    ]
+  },
+  {
+    "url": "https://medium.com/@thamizhelango/if-llms-are-deep-learning-models-why-do-we-use-reinforcement-learning-terms-like-rlhf-ppo-5b37af51a287",
+    "title": "If LLMs are Deep Learning Models, Why Do We Use Reinforcement Learning Terms like RLHF, PPO?",
+    "thumbnail": "assets/if-llms-are-deep-learning-models-why-do-we-use-reinforcement-learning-terms-like-rlhf-ppo.webp",
+    "tags": [
+      "AI/ML", "LLM"
     ]
   }
 ]
