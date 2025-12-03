@@ -4498,5 +4498,15 @@
     "tags": [
       "AI/ML", "LLM"
     ]
+  },
+  {
+    "url": "https://medium.com/@thamizhelango/qdrant-from-berlin-startup-to-your-kubernetes-cluster-2eb655781a1e",
+    "title": "Qdrant: From Berlin Startup to Your Kubernetes Cluster",
+    "thumbnail": "assets/qdrant-from-berlin-startup-to-your-kubernetes-cluster.webp",
+    "tags": [
+      "Containerization & Orchestration",
+      "Database",
+      "AI/ML"
+    ]
   }
 ]
