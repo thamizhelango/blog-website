@@ -4508,5 +4508,14 @@
       "Database",
       "AI/ML"
     ]
+  },
+  {
+    "url": "  https://medium.com/@thamizhelango/memory-architecture-in-agentic-ai-building-production-ready-stateless-microservices-with-crewai-9dd680ed48ff",
+    "title": "Memory Architecture in Agentic AI: Building Production-Ready Stateless Microservices with CrewAI",
+    "thumbnail": "assets/memory-architecture-in-agentic-ai-building-production-ready-stateless-microservices-with-crewai.webp",
+    "tags": [
+      "AI/ML",
+      "Agentic AI"
+    ]
   }
 ]
