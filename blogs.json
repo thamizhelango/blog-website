@@ -4510,12 +4510,30 @@
     ]
   },
   {
-    "url": "  https://medium.com/@thamizhelango/memory-architecture-in-agentic-ai-building-production-ready-stateless-microservices-with-crewai-9dd680ed48ff",
+    "url": "https://medium.com/@thamizhelango/memory-architecture-in-agentic-ai-building-production-ready-stateless-microservices-with-crewai-9dd680ed48ff",
     "title": "Memory Architecture in Agentic AI: Building Production-Ready Stateless Microservices with CrewAI",
     "thumbnail": "assets/memory-architecture-in-agentic-ai-building-production-ready-stateless-microservices-with-crewai.webp",
     "tags": [
       "AI/ML",
       "Agentic AI"
+    ]
+  },
+  {
+    "url": "https://medium.com/@thamizhelango/%EF%B8%8F-from-pixels-to-intelligence-mastering-vision-language-models-detection-ai-image-video-70ec3afd76a4",
+    "title": "From Pixels to Intelligence: Mastering Vision Language Models, Detection AI, Image & Video",
+    "thumbnail": "assets/from-pixels-to-intelligence-mastering-vision-language-models-detection-ai-image-video.webp",
+    "tags": [
+      "AI/ML",
+      "LLM"
+    ]
+  },
+  {
+    "url": "https://medium.com/@thamizhelango/proxmox-datacenter-manager-1-0-07fd8d30b30b",
+    "title": "Proxmox Datacenter Manager 1.0: A Complete Guide to Kubernetes-Native Virtualization",
+    "thumbnail": "assets/proxmox-datacenter-manager-1-0.webp",
+    "tags": [
+      "Virtualization",
+      "Linux"
     ]
   }
 ]
