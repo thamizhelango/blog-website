@@ -4535,5 +4535,14 @@
       "Virtualization",
       "Linux"
     ]
+  },
+  {
+    "url": "https://thamizhelango.medium.com/tangle-from-shopifys-internal-ml-chaos-to-open-source-pipeline-mastery-complete-kubernetes-f66385570828",
+    "title": "Tangle from Shopify’s Internal ML Chaos to Open-Source Pipeline Mastery: Complete Kubernetes-Native ML Pipeline",
+    "thumbnail": "assets/tangle-from-shopifys-internal-ml-chaos-to-open-source-pipeline-mastery-complete-kubernetes.webp",
+    "tags": [
+      "AI/ML",
+      "Containerization & Orchestration"
+    ]
   }
 ]
